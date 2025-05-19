@@ -5112,3 +5112,1705 @@ Sampler Limit: 32
 [2025.05.19-10.18.47:140][564]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.05.19-10.18.47:140][564]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Öğe doğrulama
 [2025.05.19-10.18.47:193][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.05.19-10.21.05:847][240]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7070.491699
+[2025.05.19-10.21.06:846][243]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.19-10.21.06:846][243]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7071.159180, Update Interval: 320.244751
+[2025.05.19-10.21.43:516][353]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: fdd...dbe
+[2025.05.19-10.21.43:516][353]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.95 RefreshExpires: 1.547e+07
+[2025.05.19-10.21.44:515][356]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: fdd...dbe Access[Expires: 2025.05.19-12.21.43 Remaining: 7200.50] Refresh[Expires: 2025-11-14T12:23:50.731Z Remaining: 15472927.73] State: Valid
+[2025.05.19-10.23.14:420][570]LogStreaming: Display: FlushAsyncLoading(594): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.14:423][570]LogStreaming: Display: ImportPackages: SkipPackage: /Game/PoisonPotionSprite (0xFC07CB0EF7FD4E45) /Game/PoisonPotionSprite (0xFC07CB0EF7FD4E45) - Skipping non mounted imported package /Game/Potions/Zehir (0x6E3816032EDA0DB4)
+[2025.05.19-10.23.14:428][570]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/Potions/Zehir (0x6E3816032EDA0DB4) - The package to load does not exist on disk or in the loader
+[2025.05.19-10.23.14:429][570]LogUObjectGlobals: Warning: 'Object /Game/Potions/Zehir.Zehir' objesi bulunamadı
+[2025.05.19-10.23.14:503][570]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Potions/Zehir which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.05.19-10.23.14:506][570]LoadErrors: Warning: /Game/PoisonPotionSprite paketini yüklemeye çalışırken /Game/Potions/Zehir bağımlı paketi kullanılamaz. İlave açıklayıcı bilgiler şu şekildedir:
+FPackageName: Skipped package /Game/Potions/Zehir has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Potions/Zehir.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.05.19-10.23.16:460][648]LogStreaming: Display: FlushAsyncLoading(603): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.16:463][648]LogStreaming: Display: ImportPackages: SkipPackage: /Game/IllPotionSprite (0xAA866D6058FB75EA) /Game/IllPotionSprite (0xAA866D6058FB75EA) - Skipping non mounted imported package /Game/Potions/Illuzyon (0x1FD8BBD3727ACDB4)
+[2025.05.19-10.23.16:484][648]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/Potions/Illuzyon (0x1FD8BBD3727ACDB4) - The package to load does not exist on disk or in the loader
+[2025.05.19-10.23.16:484][648]LogUObjectGlobals: Warning: 'Object /Game/Potions/Illuzyon.Illuzyon' objesi bulunamadı
+[2025.05.19-10.23.16:498][648]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.19-10.23.16:510][648]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PoisonPotion] ([2] browsable assets)...
+[2025.05.19-10.23.16:510][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/PoisonPotion]
+[2025.05.19-10.23.16:510][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PoisonPotion" FILE="../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/PoisonPotion.uasset" SILENT=true
+[2025.05.19-10.23.16:520][648]LogSavePackage: Moving output files for package: /Game/PoisonPotion
+[2025.05.19-10.23.16:521][648]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/PoisonPotion78AEF3404C9A27FBC1DFB685ACDB7A3E.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/PoisonPotion.uasset'
+[2025.05.19-10.23.16:522][648]LogFileHelpers: InternalPromptForCheckoutAndSave took 24.173 ms (total: 780.069 ms)
+[2025.05.19-10.23.16:597][648]LogSlate: Took 0.005255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.05.19-10.23.16:597][648]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: '̇ (U+0307)'
+[2025.05.19-10.23.16:604][648]LogSlate: Took 0.006387 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2025.05.19-10.23.16:656][648]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.05.19-10.23.16:656][648]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.19-10.23.16:656][648]LogContentValidation: Enabled validators:
+[2025.05.19-10.23.16:656][648]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.19-10.23.16:656][648]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.19-10.23.16:656][648]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.19-10.23.16:656][648]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.19-10.23.16:656][648]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.19-10.23.16:656][648]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.19-10.23.16:656][648]AssetCheck: /Game/PoisonPotion Öğe doğrulama
+[2025.05.19-10.23.16:686][648]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Potions/Illuzyon which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.05.19-10.23.16:686][648]LoadErrors: Warning: /Game/IllPotionSprite paketini yüklemeye çalışırken /Game/Potions/Illuzyon bağımlı paketi kullanılamaz. İlave açıklayıcı bilgiler şu şekildedir:
+FPackageName: Skipped package /Game/Potions/Illuzyon has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Potions/Illuzyon.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.05.19-10.23.19:352][808]LogSlate: Window 'Yeniden Adlandırmalar Başarısız' being destroyed
+[2025.05.19-10.23.21:795][949]LogStreaming: Display: FlushAsyncLoading(610): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.21:837][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.05.19-10.23.23:308][949]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.23.24:390][ 11]LogStreaming: Display: FlushAsyncLoading(611): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.24:391][ 11]LogStreaming: Display: ImportPackages: SkipPackage: /Game/WrongPotionSprite2 (0x7B589417A794B893) /Game/WrongPotionSprite2 (0x7B589417A794B893) - Skipping non mounted imported package /Game/Potions/YanlısKapi2 (0x20C1E9B02B470296)
+[2025.05.19-10.23.24:391][ 11]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/Potions/YanlısKapi2 (0x20C1E9B02B470296) - The package to load does not exist on disk or in the loader
+[2025.05.19-10.23.24:392][ 11]LogUObjectGlobals: Warning: 'Object /Game/Potions/YanlısKapi2.YanlısKapi2' objesi bulunamadı
+[2025.05.19-10.23.24:412][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.05.19-10.23.25:157][ 11]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.23.25:179][ 11]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Potions/YanlısKapi2 which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.05.19-10.23.25:179][ 11]LoadErrors: Warning: /Game/WrongPotionSprite2 paketini yüklemeye çalışırken /Game/Potions/YanlısKapi2 bağımlı paketi kullanılamaz. İlave açıklayıcı bilgiler şu şekildedir:
+FPackageName: Skipped package /Game/Potions/YanlısKapi2 has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Potions/YanlısKapi2.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.05.19-10.23.25:223][ 14]LogStreaming: Display: FlushAsyncLoading(619): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.25:239][ 15]LogStreaming: Display: FlushAsyncLoading(621): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.25:256][ 16]LogStreaming: Display: FlushAsyncLoading(623): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.25:273][ 17]LogStreaming: Display: FlushAsyncLoading(625): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.25:289][ 18]LogStreaming: Display: FlushAsyncLoading(627): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.25:307][ 19]LogStreaming: Display: FlushAsyncLoading(629): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.25:707][ 43]LogStreaming: Display: FlushAsyncLoading(631): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.25:707][ 43]LogStreaming: Display: ImportPackages: SkipPackage: /Game/WrongPotionSprite (0x92752E7F799E4E54) /Game/WrongPotionSprite (0x92752E7F799E4E54) - Skipping non mounted imported package /Game/Potions/YanlısKapi (0x180395DE9060BD1D)
+[2025.05.19-10.23.25:708][ 43]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/Potions/YanlısKapi (0x180395DE9060BD1D) - The package to load does not exist on disk or in the loader
+[2025.05.19-10.23.25:708][ 43]LogUObjectGlobals: Warning: 'Object /Game/Potions/YanlısKapi.YanlısKapi' objesi bulunamadı
+[2025.05.19-10.23.25:728][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.05.19-10.23.28:291][ 43]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.23.28:337][ 43]LogAutomationController: Ignoring very large delta of 2.64 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.19-10.23.28:338][ 43]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Potions/YanlısKapi which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.05.19-10.23.28:338][ 43]LoadErrors: Warning: /Game/WrongPotionSprite paketini yüklemeye çalışırken /Game/Potions/YanlısKapi bağımlı paketi kullanılamaz. İlave açıklayıcı bilgiler şu şekildedir:
+FPackageName: Skipped package /Game/Potions/YanlısKapi has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Potions/YanlısKapi.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.05.19-10.23.28:578][ 49]LogStreaming: Display: FlushAsyncLoading(639): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:621][ 50]LogStreaming: Display: FlushAsyncLoading(642): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:662][ 51]LogStreaming: Display: FlushAsyncLoading(644): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:678][ 52]LogStreaming: Display: FlushAsyncLoading(646): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:691][ 53]LogStreaming: Display: FlushAsyncLoading(648): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:707][ 54]LogStreaming: Display: FlushAsyncLoading(650): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:721][ 55]LogStreaming: Display: FlushAsyncLoading(652): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:757][ 56]LogStreaming: Display: FlushAsyncLoading(654): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:772][ 57]LogStreaming: Display: FlushAsyncLoading(656): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:788][ 58]LogStreaming: Display: FlushAsyncLoading(658): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:805][ 59]LogStreaming: Display: FlushAsyncLoading(660): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:822][ 60]LogStreaming: Display: FlushAsyncLoading(662): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:839][ 61]LogStreaming: Display: FlushAsyncLoading(664): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:855][ 62]LogStreaming: Display: FlushAsyncLoading(666): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:872][ 63]LogStreaming: Display: FlushAsyncLoading(668): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:888][ 64]LogStreaming: Display: FlushAsyncLoading(670): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:905][ 65]LogStreaming: Display: FlushAsyncLoading(672): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:921][ 66]LogStreaming: Display: FlushAsyncLoading(674): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:939][ 67]LogStreaming: Display: FlushAsyncLoading(676): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:955][ 68]LogStreaming: Display: FlushAsyncLoading(678): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:974][ 69]LogStreaming: Display: FlushAsyncLoading(680): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.28:989][ 70]LogStreaming: Display: FlushAsyncLoading(682): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:005][ 71]LogStreaming: Display: FlushAsyncLoading(684): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:022][ 72]LogStreaming: Display: FlushAsyncLoading(686): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:039][ 73]LogStreaming: Display: FlushAsyncLoading(688): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:056][ 74]LogStreaming: Display: FlushAsyncLoading(690): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:072][ 75]LogStreaming: Display: FlushAsyncLoading(692): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:089][ 76]LogStreaming: Display: FlushAsyncLoading(694): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:111][ 77]LogStreaming: Display: FlushAsyncLoading(696): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:126][ 78]LogStreaming: Display: FlushAsyncLoading(698): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:142][ 79]LogStreaming: Display: FlushAsyncLoading(700): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:159][ 80]LogStreaming: Display: FlushAsyncLoading(702): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:176][ 81]LogStreaming: Display: FlushAsyncLoading(704): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:193][ 82]LogStreaming: Display: FlushAsyncLoading(706): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:210][ 83]LogStreaming: Display: FlushAsyncLoading(708): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:226][ 84]LogStreaming: Display: FlushAsyncLoading(710): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:242][ 85]LogStreaming: Display: FlushAsyncLoading(712): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:259][ 86]LogStreaming: Display: FlushAsyncLoading(714): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:278][ 87]LogStreaming: Display: FlushAsyncLoading(716): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:294][ 88]LogStreaming: Display: FlushAsyncLoading(718): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:317][ 89]LogStreaming: Display: FlushAsyncLoading(720): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:339][ 90]LogStreaming: Display: FlushAsyncLoading(722): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:354][ 91]LogStreaming: Display: FlushAsyncLoading(724): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:370][ 92]LogStreaming: Display: FlushAsyncLoading(726): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:387][ 93]LogStreaming: Display: FlushAsyncLoading(728): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:404][ 94]LogStreaming: Display: FlushAsyncLoading(730): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:421][ 95]LogStreaming: Display: FlushAsyncLoading(732): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:437][ 96]LogStreaming: Display: FlushAsyncLoading(734): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:453][ 97]LogStreaming: Display: FlushAsyncLoading(736): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:470][ 98]LogStreaming: Display: FlushAsyncLoading(738): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:487][ 99]LogStreaming: Display: FlushAsyncLoading(740): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:504][100]LogStreaming: Display: FlushAsyncLoading(742): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:520][101]LogStreaming: Display: FlushAsyncLoading(744): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:537][102]LogStreaming: Display: FlushAsyncLoading(746): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:554][103]LogStreaming: Display: FlushAsyncLoading(748): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:570][104]LogStreaming: Display: FlushAsyncLoading(750): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:588][105]LogStreaming: Display: FlushAsyncLoading(752): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:604][106]LogStreaming: Display: FlushAsyncLoading(754): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:621][107]LogStreaming: Display: FlushAsyncLoading(756): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:637][108]LogStreaming: Display: FlushAsyncLoading(758): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:654][109]LogStreaming: Display: FlushAsyncLoading(760): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:670][110]LogStreaming: Display: FlushAsyncLoading(762): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:687][111]LogStreaming: Display: FlushAsyncLoading(764): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:704][112]LogStreaming: Display: FlushAsyncLoading(766): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:720][113]LogStreaming: Display: FlushAsyncLoading(768): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:738][114]LogStreaming: Display: FlushAsyncLoading(770): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:753][115]LogStreaming: Display: FlushAsyncLoading(772): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:770][116]LogStreaming: Display: FlushAsyncLoading(774): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:903][124]LogStreaming: Display: FlushAsyncLoading(776): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:920][125]LogStreaming: Display: FlushAsyncLoading(778): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:938][126]LogStreaming: Display: FlushAsyncLoading(780): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:954][127]LogStreaming: Display: FlushAsyncLoading(782): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:971][128]LogStreaming: Display: FlushAsyncLoading(784): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.29:988][129]LogStreaming: Display: FlushAsyncLoading(786): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.30:024][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.05.19-10.23.30:719][130]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.23.31:420][171]Cmd: TRANSACTION UNDO
+[2025.05.19-10.23.31:420][171]LogEditorTransaction: Undo Ölçeği Ayarla
+[2025.05.19-10.23.31:878][171]Cmd: TRANSACTION UNDO
+[2025.05.19-10.23.31:878][171]LogEditorTransaction: Undo Öğelere Tıklama
+[2025.05.19-10.23.32:529][172]Cmd: TRANSACTION UNDO
+[2025.05.19-10.23.32:529][172]LogEditorTransaction: Undo Collision Complexity Düzenle
+[2025.05.19-10.23.32:552][172]LogStaticMesh: Display: "statik örgüler" öğesinin hazır olması bekleniyor 0/1 (/Game/mimariplantexturefinal2) ...
+[2025.05.19-10.23.33:088][175]LogStreaming: Display: FlushAsyncLoading(788): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:104][176]LogStreaming: Display: FlushAsyncLoading(791): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:124][177]LogStreaming: Display: FlushAsyncLoading(793): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:139][178]LogStreaming: Display: FlushAsyncLoading(795): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:157][179]LogStreaming: Display: FlushAsyncLoading(797): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:173][180]LogStreaming: Display: FlushAsyncLoading(799): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:190][181]LogStreaming: Display: FlushAsyncLoading(801): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:207][182]LogStreaming: Display: FlushAsyncLoading(803): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:340][190]LogStreaming: Display: FlushAsyncLoading(805): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:357][191]LogStreaming: Display: FlushAsyncLoading(807): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:373][192]LogStreaming: Display: FlushAsyncLoading(809): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:390][193]LogStreaming: Display: FlushAsyncLoading(811): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:407][194]LogStreaming: Display: FlushAsyncLoading(813): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:423][195]LogStreaming: Display: FlushAsyncLoading(815): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:440][196]LogStreaming: Display: FlushAsyncLoading(817): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:457][197]LogStreaming: Display: FlushAsyncLoading(819): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:473][198]LogStreaming: Display: FlushAsyncLoading(821): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:490][199]LogStreaming: Display: FlushAsyncLoading(823): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:506][200]LogStreaming: Display: FlushAsyncLoading(825): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:523][201]LogStreaming: Display: FlushAsyncLoading(827): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:540][202]LogStreaming: Display: FlushAsyncLoading(829): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:556][203]LogStreaming: Display: FlushAsyncLoading(831): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:573][204]LogStreaming: Display: FlushAsyncLoading(833): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:590][205]LogStreaming: Display: FlushAsyncLoading(835): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:606][206]LogStreaming: Display: FlushAsyncLoading(837): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:623][207]LogStreaming: Display: FlushAsyncLoading(839): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:639][208]LogStreaming: Display: FlushAsyncLoading(841): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:657][209]LogStreaming: Display: FlushAsyncLoading(843): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:673][210]LogStreaming: Display: FlushAsyncLoading(845): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:689][211]LogStreaming: Display: FlushAsyncLoading(847): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:706][212]LogStreaming: Display: FlushAsyncLoading(849): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:723][213]LogStreaming: Display: FlushAsyncLoading(851): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:740][214]LogStreaming: Display: FlushAsyncLoading(853): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:757][215]LogStreaming: Display: FlushAsyncLoading(855): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:773][216]LogStreaming: Display: FlushAsyncLoading(857): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:790][217]LogStreaming: Display: FlushAsyncLoading(859): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:807][218]LogStreaming: Display: FlushAsyncLoading(861): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:823][219]LogStreaming: Display: FlushAsyncLoading(863): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:840][220]LogStreaming: Display: FlushAsyncLoading(865): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:857][221]LogStreaming: Display: FlushAsyncLoading(867): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:873][222]LogStreaming: Display: FlushAsyncLoading(869): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:890][223]LogStreaming: Display: FlushAsyncLoading(871): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:906][224]LogStreaming: Display: FlushAsyncLoading(873): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:923][225]LogStreaming: Display: FlushAsyncLoading(875): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:940][226]LogStreaming: Display: FlushAsyncLoading(877): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:957][227]LogStreaming: Display: FlushAsyncLoading(879): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:973][228]LogStreaming: Display: FlushAsyncLoading(881): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.33:989][229]LogStreaming: Display: FlushAsyncLoading(883): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.34:006][230]LogStreaming: Display: FlushAsyncLoading(885): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.34:023][231]LogStreaming: Display: FlushAsyncLoading(887): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.34:040][232]LogStreaming: Display: FlushAsyncLoading(889): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.34:057][233]LogStreaming: Display: FlushAsyncLoading(891): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.34:073][234]LogStreaming: Display: FlushAsyncLoading(893): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.34:090][235]LogStreaming: Display: FlushAsyncLoading(895): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.34:106][236]LogStreaming: Display: FlushAsyncLoading(897): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.34:124][237]LogStreaming: Display: FlushAsyncLoading(899): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.34:140][238]LogStreaming: Display: FlushAsyncLoading(901): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.34:157][239]LogStreaming: Display: FlushAsyncLoading(903): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.34:173][240]LogStreaming: Display: FlushAsyncLoading(905): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.34:190][241]LogStreaming: Display: FlushAsyncLoading(907): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.34:207][242]LogStreaming: Display: FlushAsyncLoading(909): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.34:224][243]LogStreaming: Display: FlushAsyncLoading(911): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.34:241][244]LogStreaming: Display: FlushAsyncLoading(913): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.34:257][245]LogStreaming: Display: FlushAsyncLoading(915): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.34:273][246]LogStreaming: Display: FlushAsyncLoading(917): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.37:038][408]Cmd: TRANSACTION UNDO
+[2025.05.19-10.23.37:038][408]LogEditorTransaction: Undo Elementleri Hareket Ettir
+[2025.05.19-10.23.41:425][642]Cmd: TRANSACTION UNDO
+[2025.05.19-10.23.41:425][642]LogEditorTransaction: Undo Elementleri Hareket Ettir
+[2025.05.19-10.23.44:514][790]LogStreaming: Display: FlushAsyncLoading(919): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.44:544][791]LogStreaming: Display: FlushAsyncLoading(921): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.45:292][834]LogStreaming: Display: FlushAsyncLoading(924): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.46:888][929]LogStreaming: Display: FlushAsyncLoading(927): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.46:889][929]LogStreaming: Display: ImportPackages: SkipPackage: /Game/ReturnPotionSprite (0xCAF4250B8CB8605D) /Game/ReturnPotionSprite (0xCAF4250B8CB8605D) - Skipping non mounted imported package /Game/Potions/GeriDonus (0xE09E08E76EC12484)
+[2025.05.19-10.23.46:889][929]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/Potions/GeriDonus (0xE09E08E76EC12484) - The package to load does not exist on disk or in the loader
+[2025.05.19-10.23.46:889][929]LogUObjectGlobals: Warning: 'Object /Game/Potions/GeriDonus.GeriDonus' objesi bulunamadı
+[2025.05.19-10.23.46:912][929]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.05.19-10.23.48:367][929]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.23.48:403][929]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Potions/GeriDonus which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.05.19-10.23.48:403][930]LoadErrors: Warning: /Game/ReturnPotionSprite paketini yüklemeye çalışırken /Game/Potions/GeriDonus bağımlı paketi kullanılamaz. İlave açıklayıcı bilgiler şu şekildedir:
+FPackageName: Skipped package /Game/Potions/GeriDonus has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Potions/GeriDonus.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.05.19-10.23.48:681][945]LogStreaming: Display: FlushAsyncLoading(935): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.48:701][946]LogStreaming: Display: FlushAsyncLoading(938): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.48:717][947]LogStreaming: Display: FlushAsyncLoading(940): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.48:734][948]LogStreaming: Display: FlushAsyncLoading(942): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.48:750][949]LogStreaming: Display: FlushAsyncLoading(944): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.48:766][950]LogStreaming: Display: FlushAsyncLoading(946): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.48:783][951]LogStreaming: Display: FlushAsyncLoading(948): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.48:800][952]LogStreaming: Display: FlushAsyncLoading(950): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.48:817][953]LogStreaming: Display: FlushAsyncLoading(952): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.48:834][954]LogStreaming: Display: FlushAsyncLoading(954): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.48:850][955]LogStreaming: Display: FlushAsyncLoading(956): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.48:867][956]LogStreaming: Display: FlushAsyncLoading(958): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.51:154][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.05.19-10.23.53:052][ 83]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.23.54:047][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.05.19-10.23.55:040][137]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.23.55:866][185]LogContentBrowser: Attempting asset rename: Doğruİksir_Sprite -> Doğruİksir_Sprite
+[2025.05.19-10.23.56:201][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.05.19-10.23.57:807][203]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.23.59:829][320]LogStreaming: Display: FlushAsyncLoading(960): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.23.59:937][322]LogStreaming: Display: FlushAsyncLoading(966): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:314][339]LogStreaming: Display: FlushAsyncLoading(975): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:330][340]LogStreaming: Display: FlushAsyncLoading(977): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:365][341]LogStreaming: Display: FlushAsyncLoading(979): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:381][342]LogStreaming: Display: FlushAsyncLoading(981): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:397][343]LogStreaming: Display: FlushAsyncLoading(983): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:414][344]LogStreaming: Display: FlushAsyncLoading(985): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:430][345]LogStreaming: Display: FlushAsyncLoading(987): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:447][346]LogStreaming: Display: FlushAsyncLoading(989): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:463][347]LogStreaming: Display: FlushAsyncLoading(991): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:481][348]LogStreaming: Display: FlushAsyncLoading(993): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:497][349]LogStreaming: Display: FlushAsyncLoading(995): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:514][350]LogStreaming: Display: FlushAsyncLoading(997): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:530][351]LogStreaming: Display: FlushAsyncLoading(999): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:547][352]LogStreaming: Display: FlushAsyncLoading(1001): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:563][353]LogStreaming: Display: FlushAsyncLoading(1003): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:581][354]LogStreaming: Display: FlushAsyncLoading(1005): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:597][355]LogStreaming: Display: FlushAsyncLoading(1007): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:614][356]LogStreaming: Display: FlushAsyncLoading(1009): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:631][357]LogStreaming: Display: FlushAsyncLoading(1011): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:647][358]LogStreaming: Display: FlushAsyncLoading(1013): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:664][359]LogStreaming: Display: FlushAsyncLoading(1015): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:680][360]LogStreaming: Display: FlushAsyncLoading(1017): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:697][361]LogStreaming: Display: FlushAsyncLoading(1019): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:713][362]LogStreaming: Display: FlushAsyncLoading(1021): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:730][363]LogStreaming: Display: FlushAsyncLoading(1023): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:747][364]LogStreaming: Display: FlushAsyncLoading(1025): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:764][365]LogStreaming: Display: FlushAsyncLoading(1027): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:780][366]LogStreaming: Display: FlushAsyncLoading(1029): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:797][367]LogStreaming: Display: FlushAsyncLoading(1031): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:813][368]LogStreaming: Display: FlushAsyncLoading(1033): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:831][369]LogStreaming: Display: FlushAsyncLoading(1035): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:847][370]LogStreaming: Display: FlushAsyncLoading(1037): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:864][371]LogStreaming: Display: FlushAsyncLoading(1039): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:881][372]LogStreaming: Display: FlushAsyncLoading(1041): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:897][373]LogStreaming: Display: FlushAsyncLoading(1043): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:914][374]LogStreaming: Display: FlushAsyncLoading(1045): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:931][375]LogStreaming: Display: FlushAsyncLoading(1047): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:947][376]LogStreaming: Display: FlushAsyncLoading(1049): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:964][377]LogStreaming: Display: FlushAsyncLoading(1051): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:981][378]LogStreaming: Display: FlushAsyncLoading(1053): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.00:997][379]LogStreaming: Display: FlushAsyncLoading(1055): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.01:013][380]LogStreaming: Display: FlushAsyncLoading(1057): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.01:031][381]LogStreaming: Display: FlushAsyncLoading(1059): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.10:798][950]LogStreaming: Display: FlushAsyncLoading(1061): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.10:855][952]LogStreaming: Display: FlushAsyncLoading(1069): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.11:544][991]LogStreaming: Display: FlushAsyncLoading(1071): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.11:579][992]LogStreaming: Display: FlushAsyncLoading(1073): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.11:978][ 14]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Zehir2.Zehir2
+[2025.05.19-10.24.16:740][232]LogStreaming: Display: FlushAsyncLoading(1075): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.16:778][233]LogStreaming: Display: FlushAsyncLoading(1077): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.16:794][234]LogStreaming: Display: FlushAsyncLoading(1079): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.16:812][235]LogStreaming: Display: FlushAsyncLoading(1081): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.16:828][236]LogStreaming: Display: FlushAsyncLoading(1083): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.16:844][237]LogStreaming: Display: FlushAsyncLoading(1085): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.16:869][238]LogStreaming: Display: FlushAsyncLoading(1087): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.16:883][239]LogStreaming: Display: FlushAsyncLoading(1089): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.16:901][240]LogStreaming: Display: FlushAsyncLoading(1091): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.16:921][241]LogStreaming: Display: FlushAsyncLoading(1093): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.16:941][242]LogStreaming: Display: FlushAsyncLoading(1095): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.16:961][243]LogStreaming: Display: FlushAsyncLoading(1097): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.16:981][244]LogStreaming: Display: FlushAsyncLoading(1099): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.17:002][245]LogStreaming: Display: FlushAsyncLoading(1101): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.20:566][402]LogStreaming: Display: FlushAsyncLoading(1103): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.20:570][402]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.19-10.24.20:570][402]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PoisonPotionSprite2] ([1] browsable assets)...
+[2025.05.19-10.24.20:570][402]OBJ SavePackage: Finished generating thumbnails for package [/Game/PoisonPotionSprite2]
+[2025.05.19-10.24.20:570][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PoisonPotionSprite2" FILE="../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/PoisonPotionSprite2.uasset" SILENT=true
+[2025.05.19-10.24.20:571][402]LogSavePackage: Moving output files for package: /Game/PoisonPotionSprite2
+[2025.05.19-10.24.20:572][402]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/PoisonPotionSprite2F732520D4AA3675B303DFAA280F47B6F.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/PoisonPotionSprite2.uasset'
+[2025.05.19-10.24.20:572][402]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.707 ms (total: 782.777 ms)
+[2025.05.19-10.24.20:676][402]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.05.19-10.24.20:676][402]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.19-10.24.20:676][402]LogContentValidation: Enabled validators:
+[2025.05.19-10.24.20:676][402]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.19-10.24.20:676][402]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.19-10.24.20:676][402]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.19-10.24.20:676][402]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.19-10.24.20:676][402]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.19-10.24.20:676][402]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.19-10.24.20:676][402]AssetCheck: /Game/PoisonPotionSprite2 Öğe doğrulama
+[2025.05.19-10.24.22:916][536]LogSlate: Window 'Yeniden Adlandırmalar Başarısız' being destroyed
+[2025.05.19-10.24.23:708][580]LogStreaming: Display: FlushAsyncLoading(1104): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.23:926][592]LogStreaming: Display: FlushAsyncLoading(1106): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.23:942][593]LogStreaming: Display: FlushAsyncLoading(1108): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.23:958][594]LogStreaming: Display: FlushAsyncLoading(1110): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.23:975][595]LogStreaming: Display: FlushAsyncLoading(1112): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.23:992][596]LogStreaming: Display: FlushAsyncLoading(1114): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.24:009][597]LogStreaming: Display: FlushAsyncLoading(1116): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.24:025][598]LogStreaming: Display: FlushAsyncLoading(1118): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.24:042][599]LogStreaming: Display: FlushAsyncLoading(1120): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.24:059][600]LogStreaming: Display: FlushAsyncLoading(1122): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.24:076][601]LogStreaming: Display: FlushAsyncLoading(1124): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.24:092][602]LogStreaming: Display: FlushAsyncLoading(1126): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.24:109][603]LogStreaming: Display: FlushAsyncLoading(1128): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.24:126][604]LogStreaming: Display: FlushAsyncLoading(1130): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.24:142][605]LogStreaming: Display: FlushAsyncLoading(1132): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.24:949][649]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.05.19-10.24.28:612][649]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.24.28:643][649]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Zehir2.Zehir2
+	Asset Type: Texture2D
+[2025.05.19-10.24.32:063][649]LogSlate: Window 'Mesaj' being destroyed
+[2025.05.19-10.24.32:073][649]Message dialog closed, result: Ok, title: Mesaj, text: Texture2D /Game/Zehir2.Zehir2 kullanımda.
+
+---
+Obje başlangıçta yüklenmişse editörü '-No Load Startup Packages' ile çalıştırmak yardımcı olabilir.
+---
+
+
+External referencers of Texture2D /Game/Zehir2.Zehir2:
+   PaperSprite /Game/PoisonPotionSprite2.PoisonPotionSprite2 (standalone) (2)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+      1) ObjectProperty /Script/Paper2D.PaperSprite:BakedSourceTexture
+
+
+[2025.05.19-10.24.32:073][649]LogObjectTools: Warning: ForceDeleteObject failed to delete Zehir2, this package is now potentially corrupt
+[2025.05.19-10.24.32:075][649]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2025.05.19-10.24.32:137][649]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.062 s
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: === Handled ensure: ===
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: 
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: Ensure condition failed: false  [File:D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\ObjectTools.cpp] [Line: 3705] 
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: 
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: 					Failed to unload all packages during ForceDeleteObjects - 
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: 					these packages are likely corrupt. Consider restarting the 
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: 					editor, noting which assets remain and then deleting them 
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: 					from the file system manually: 
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: /Game/Zehir2
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: Stack: 
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff802fa3f37 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff8025830b4 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff801837501 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff801d4f4a3 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff801d4353a UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff80720145c UnrealEditor-Slate.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff80721f332 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff806faa7eb UnrealEditor-Slate.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff806f954a4 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff806fef23f UnrealEditor-Slate.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff806fdd5c6 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff806fd1f9c UnrealEditor-Slate.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff83a10aaf0 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff83a0f5786 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff83a10d85e UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff83a0f05b7 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff88a11e83a USER32.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff88a13ccb2 USER32.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff83a10e1d9 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff806ff704f UnrealEditor-Slate.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff806fb0122 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff801e98fa7 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff802576684 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff802575962 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x000001bc1130c8e7 UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x000001bc112ecc77 UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007fffea9f112e UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007fffeac7f0ce UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007fffeac52a3b UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff8070673a5 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff80704afd7 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff8070afb2b UnrealEditor-Slate.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007fffeaca733e UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff806f91ed4 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff806fdb5f5 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff806fcfcd2 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff83a10a625 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff83a0f5786 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff83a10d85e UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff83a0f05b7 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff88a11e83a USER32.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff88a13ccb2 USER32.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff83a12bb26 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff76cc3632d UnrealEditor.exe!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff76cc557ac UnrealEditor.exe!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff76cc5589a UnrealEditor.exe!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff76cc59114 UnrealEditor.exe!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff76cc6bd04 UnrealEditor.exe!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff76cc6f0ba UnrealEditor.exe!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff88a83e8d7 KERNEL32.DLL!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: [Callstack] 0x00007ff88b21c5dc ntdll.dll!UnknownFunction []
+[2025.05.19-10.24.32:137][649]LogOutputDevice: Error: 
+[2025.05.19-10.24.32:140][649]LogStats:                SubmitErrorReport -  0.000 s
+[2025.05.19-10.24.33:682][649]LogStats:                    SendNewReport -  1.542 s
+[2025.05.19-10.24.33:682][649]LogStats:             FDebug::EnsureFailed -  1.607 s
+[2025.05.19-10.24.33:834][649]LogAutomationController: Ignoring very large delta of 8.95 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.19-10.24.35:472][728]LogStreaming: Display: FlushAsyncLoading(1134): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.42:519][140]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.05.19-10.24.48:292][140]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.24.48:369][140]LogAutomationController: Ignoring very large delta of 5.87 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.19-10.24.50:093][230]LogStreaming: Display: FlushAsyncLoading(1137): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.50:200][232]LogStreaming: Display: FlushAsyncLoading(1143): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:068][282]LogStreaming: Display: FlushAsyncLoading(1152): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:098][283]LogStreaming: Display: FlushAsyncLoading(1154): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:114][284]LogStreaming: Display: FlushAsyncLoading(1156): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:130][285]LogStreaming: Display: FlushAsyncLoading(1158): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:147][286]LogStreaming: Display: FlushAsyncLoading(1160): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:163][287]LogStreaming: Display: FlushAsyncLoading(1162): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:180][288]LogStreaming: Display: FlushAsyncLoading(1164): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:197][289]LogStreaming: Display: FlushAsyncLoading(1166): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:213][290]LogStreaming: Display: FlushAsyncLoading(1168): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:230][291]LogStreaming: Display: FlushAsyncLoading(1170): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:247][292]LogStreaming: Display: FlushAsyncLoading(1172): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:264][293]LogStreaming: Display: FlushAsyncLoading(1174): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:281][294]LogStreaming: Display: FlushAsyncLoading(1176): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:314][296]LogStreaming: Display: FlushAsyncLoading(1178): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:331][297]LogStreaming: Display: FlushAsyncLoading(1180): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:347][298]LogStreaming: Display: FlushAsyncLoading(1182): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:363][299]LogStreaming: Display: FlushAsyncLoading(1184): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:878][329]LogStreaming: Display: FlushAsyncLoading(1186): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:895][330]LogStreaming: Display: FlushAsyncLoading(1188): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:911][331]LogStreaming: Display: FlushAsyncLoading(1190): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:928][332]LogStreaming: Display: FlushAsyncLoading(1192): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:945][333]LogStreaming: Display: FlushAsyncLoading(1194): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:974][334]LogStreaming: Display: FlushAsyncLoading(1196): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.51:990][335]LogStreaming: Display: FlushAsyncLoading(1198): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:007][336]LogStreaming: Display: FlushAsyncLoading(1200): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:023][337]LogStreaming: Display: FlushAsyncLoading(1202): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:040][338]LogStreaming: Display: FlushAsyncLoading(1204): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:057][339]LogStreaming: Display: FlushAsyncLoading(1206): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:073][340]LogStreaming: Display: FlushAsyncLoading(1208): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:090][341]LogStreaming: Display: FlushAsyncLoading(1210): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:106][342]LogStreaming: Display: FlushAsyncLoading(1212): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:123][343]LogStreaming: Display: FlushAsyncLoading(1214): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:140][344]LogStreaming: Display: FlushAsyncLoading(1216): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:157][345]LogStreaming: Display: FlushAsyncLoading(1218): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:173][346]LogStreaming: Display: FlushAsyncLoading(1220): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:190][347]LogStreaming: Display: FlushAsyncLoading(1222): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:206][348]LogStreaming: Display: FlushAsyncLoading(1224): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:223][349]LogStreaming: Display: FlushAsyncLoading(1226): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:240][350]LogStreaming: Display: FlushAsyncLoading(1228): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:257][351]LogStreaming: Display: FlushAsyncLoading(1230): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:274][352]LogStreaming: Display: FlushAsyncLoading(1232): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:290][353]LogStreaming: Display: FlushAsyncLoading(1234): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:306][354]LogStreaming: Display: FlushAsyncLoading(1236): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:324][355]LogStreaming: Display: FlushAsyncLoading(1238): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:340][356]LogStreaming: Display: FlushAsyncLoading(1240): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:356][357]LogStreaming: Display: FlushAsyncLoading(1242): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:374][358]LogStreaming: Display: FlushAsyncLoading(1244): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:390][359]LogStreaming: Display: FlushAsyncLoading(1246): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:407][360]LogStreaming: Display: FlushAsyncLoading(1248): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:423][361]LogStreaming: Display: FlushAsyncLoading(1250): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:440][362]LogStreaming: Display: FlushAsyncLoading(1252): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:456][363]LogStreaming: Display: FlushAsyncLoading(1254): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:474][364]LogStreaming: Display: FlushAsyncLoading(1256): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:490][365]LogStreaming: Display: FlushAsyncLoading(1258): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:507][366]LogStreaming: Display: FlushAsyncLoading(1260): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:523][367]LogStreaming: Display: FlushAsyncLoading(1262): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:540][368]LogStreaming: Display: FlushAsyncLoading(1264): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:557][369]LogStreaming: Display: FlushAsyncLoading(1266): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:573][370]LogStreaming: Display: FlushAsyncLoading(1268): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:590][371]LogStreaming: Display: FlushAsyncLoading(1270): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:607][372]LogStreaming: Display: FlushAsyncLoading(1272): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:623][373]LogStreaming: Display: FlushAsyncLoading(1274): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:640][374]LogStreaming: Display: FlushAsyncLoading(1276): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:656][375]LogStreaming: Display: FlushAsyncLoading(1278): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:674][376]LogStreaming: Display: FlushAsyncLoading(1280): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:790][383]LogStreaming: Display: FlushAsyncLoading(1282): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:806][384]LogStreaming: Display: FlushAsyncLoading(1284): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:824][385]LogStreaming: Display: FlushAsyncLoading(1286): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:840][386]LogStreaming: Display: FlushAsyncLoading(1288): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:857][387]LogStreaming: Display: FlushAsyncLoading(1290): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:874][388]LogStreaming: Display: FlushAsyncLoading(1292): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:890][389]LogStreaming: Display: FlushAsyncLoading(1294): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:906][390]LogStreaming: Display: FlushAsyncLoading(1296): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:923][391]LogStreaming: Display: FlushAsyncLoading(1298): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:940][392]LogStreaming: Display: FlushAsyncLoading(1300): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:957][393]LogStreaming: Display: FlushAsyncLoading(1302): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:974][394]LogStreaming: Display: FlushAsyncLoading(1304): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.52:990][395]LogStreaming: Display: FlushAsyncLoading(1306): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:007][396]LogStreaming: Display: FlushAsyncLoading(1308): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:023][397]LogStreaming: Display: FlushAsyncLoading(1310): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:039][398]LogStreaming: Display: FlushAsyncLoading(1312): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:056][399]LogStreaming: Display: FlushAsyncLoading(1314): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:074][400]LogStreaming: Display: FlushAsyncLoading(1316): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:090][401]LogStreaming: Display: FlushAsyncLoading(1318): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:107][402]LogStreaming: Display: FlushAsyncLoading(1320): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:123][403]LogStreaming: Display: FlushAsyncLoading(1322): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:140][404]LogStreaming: Display: FlushAsyncLoading(1324): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:157][405]LogStreaming: Display: FlushAsyncLoading(1326): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:173][406]LogStreaming: Display: FlushAsyncLoading(1328): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:190][407]LogStreaming: Display: FlushAsyncLoading(1330): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:207][408]LogStreaming: Display: FlushAsyncLoading(1332): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:224][409]LogStreaming: Display: FlushAsyncLoading(1334): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:240][410]LogStreaming: Display: FlushAsyncLoading(1336): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:257][411]LogStreaming: Display: FlushAsyncLoading(1338): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:273][412]LogStreaming: Display: FlushAsyncLoading(1340): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:290][413]LogStreaming: Display: FlushAsyncLoading(1342): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:306][414]LogStreaming: Display: FlushAsyncLoading(1344): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:324][415]LogStreaming: Display: FlushAsyncLoading(1346): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:340][416]LogStreaming: Display: FlushAsyncLoading(1348): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:356][417]LogStreaming: Display: FlushAsyncLoading(1350): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:374][418]LogStreaming: Display: FlushAsyncLoading(1352): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:390][419]LogStreaming: Display: FlushAsyncLoading(1354): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:407][420]LogStreaming: Display: FlushAsyncLoading(1356): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:423][421]LogStreaming: Display: FlushAsyncLoading(1358): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:440][422]LogStreaming: Display: FlushAsyncLoading(1360): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:456][423]LogStreaming: Display: FlushAsyncLoading(1362): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:473][424]LogStreaming: Display: FlushAsyncLoading(1364): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:490][425]LogStreaming: Display: FlushAsyncLoading(1366): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:506][426]LogStreaming: Display: FlushAsyncLoading(1368): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:523][427]LogStreaming: Display: FlushAsyncLoading(1370): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:540][428]LogStreaming: Display: FlushAsyncLoading(1372): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:557][429]LogStreaming: Display: FlushAsyncLoading(1374): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:573][430]LogStreaming: Display: FlushAsyncLoading(1376): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:590][431]LogStreaming: Display: FlushAsyncLoading(1378): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:607][432]LogStreaming: Display: FlushAsyncLoading(1380): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:623][433]LogStreaming: Display: FlushAsyncLoading(1382): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:640][434]LogStreaming: Display: FlushAsyncLoading(1384): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:658][435]LogStreaming: Display: FlushAsyncLoading(1386): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:674][436]LogStreaming: Display: FlushAsyncLoading(1388): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:690][437]LogStreaming: Display: FlushAsyncLoading(1390): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:706][438]LogStreaming: Display: FlushAsyncLoading(1392): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:724][439]LogStreaming: Display: FlushAsyncLoading(1394): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:746][440]LogStreaming: Display: FlushAsyncLoading(1396): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:762][441]LogStreaming: Display: FlushAsyncLoading(1398): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:780][442]LogStreaming: Display: FlushAsyncLoading(1400): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:796][443]LogStreaming: Display: FlushAsyncLoading(1402): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:813][444]LogStreaming: Display: FlushAsyncLoading(1404): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:829][445]LogStreaming: Display: FlushAsyncLoading(1406): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:845][446]LogStreaming: Display: FlushAsyncLoading(1408): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:862][447]LogStreaming: Display: FlushAsyncLoading(1410): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:878][448]LogStreaming: Display: FlushAsyncLoading(1412): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:895][449]LogStreaming: Display: FlushAsyncLoading(1414): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:912][450]LogStreaming: Display: FlushAsyncLoading(1416): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:929][451]LogStreaming: Display: FlushAsyncLoading(1418): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:945][452]LogStreaming: Display: FlushAsyncLoading(1420): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:962][453]LogStreaming: Display: FlushAsyncLoading(1422): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:979][454]LogStreaming: Display: FlushAsyncLoading(1424): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.53:996][455]LogStreaming: Display: FlushAsyncLoading(1426): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:012][456]LogStreaming: Display: FlushAsyncLoading(1428): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:030][457]LogStreaming: Display: FlushAsyncLoading(1430): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:046][458]LogStreaming: Display: FlushAsyncLoading(1432): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:062][459]LogStreaming: Display: FlushAsyncLoading(1434): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:079][460]LogStreaming: Display: FlushAsyncLoading(1436): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:095][461]LogStreaming: Display: FlushAsyncLoading(1438): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:112][462]LogStreaming: Display: FlushAsyncLoading(1440): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:129][463]LogStreaming: Display: FlushAsyncLoading(1442): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:146][464]LogStreaming: Display: FlushAsyncLoading(1444): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:162][465]LogStreaming: Display: FlushAsyncLoading(1446): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:180][466]LogStreaming: Display: FlushAsyncLoading(1448): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:196][467]LogStreaming: Display: FlushAsyncLoading(1450): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:213][468]LogStreaming: Display: FlushAsyncLoading(1452): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:230][469]LogStreaming: Display: FlushAsyncLoading(1454): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:247][470]LogStreaming: Display: FlushAsyncLoading(1456): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:263][471]LogStreaming: Display: FlushAsyncLoading(1458): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:279][472]LogStreaming: Display: FlushAsyncLoading(1460): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:296][473]LogStreaming: Display: FlushAsyncLoading(1462): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:313][474]LogStreaming: Display: FlushAsyncLoading(1464): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:329][475]LogStreaming: Display: FlushAsyncLoading(1466): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:346][476]LogStreaming: Display: FlushAsyncLoading(1468): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:362][477]LogStreaming: Display: FlushAsyncLoading(1470): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:379][478]LogStreaming: Display: FlushAsyncLoading(1472): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:396][479]LogStreaming: Display: FlushAsyncLoading(1474): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:412][480]LogStreaming: Display: FlushAsyncLoading(1476): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:430][481]LogStreaming: Display: FlushAsyncLoading(1478): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:446][482]LogStreaming: Display: FlushAsyncLoading(1480): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:463][483]LogStreaming: Display: FlushAsyncLoading(1482): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:480][484]LogStreaming: Display: FlushAsyncLoading(1484): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:496][485]LogStreaming: Display: FlushAsyncLoading(1486): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:513][486]LogStreaming: Display: FlushAsyncLoading(1488): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:529][487]LogStreaming: Display: FlushAsyncLoading(1490): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:546][488]LogStreaming: Display: FlushAsyncLoading(1492): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:563][489]LogStreaming: Display: FlushAsyncLoading(1494): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:579][490]LogStreaming: Display: FlushAsyncLoading(1496): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:597][491]LogStreaming: Display: FlushAsyncLoading(1498): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:613][492]LogStreaming: Display: FlushAsyncLoading(1500): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:631][493]LogStreaming: Display: FlushAsyncLoading(1502): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:646][494]LogStreaming: Display: FlushAsyncLoading(1504): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:662][495]LogStreaming: Display: FlushAsyncLoading(1506): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:679][496]LogStreaming: Display: FlushAsyncLoading(1508): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:696][497]LogStreaming: Display: FlushAsyncLoading(1510): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:713][498]LogStreaming: Display: FlushAsyncLoading(1512): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.24.54:730][499]LogStreaming: Display: FlushAsyncLoading(1514): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.01:003][860]LogStreaming: Display: FlushAsyncLoading(1516): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.01:049][861]LogStreaming: Display: FlushAsyncLoading(1524): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:007][ 85]LogStreaming: Display: FlushAsyncLoading(1526): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:052][ 86]LogStreaming: Display: FlushAsyncLoading(1534): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:234][ 94]LogStreaming: Display: FlushAsyncLoading(1536): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:254][ 95]LogStreaming: Display: FlushAsyncLoading(1538): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:270][ 96]LogStreaming: Display: FlushAsyncLoading(1540): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:286][ 97]LogStreaming: Display: FlushAsyncLoading(1542): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:303][ 98]LogStreaming: Display: FlushAsyncLoading(1544): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:320][ 99]LogStreaming: Display: FlushAsyncLoading(1546): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:336][100]LogStreaming: Display: FlushAsyncLoading(1548): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:353][101]LogStreaming: Display: FlushAsyncLoading(1550): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:369][102]LogStreaming: Display: FlushAsyncLoading(1552): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:386][103]LogStreaming: Display: FlushAsyncLoading(1554): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:402][104]LogStreaming: Display: FlushAsyncLoading(1556): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:419][105]LogStreaming: Display: FlushAsyncLoading(1558): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:436][106]LogStreaming: Display: FlushAsyncLoading(1560): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:452][107]LogStreaming: Display: FlushAsyncLoading(1562): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:469][108]LogStreaming: Display: FlushAsyncLoading(1564): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:486][109]LogStreaming: Display: FlushAsyncLoading(1566): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:503][110]LogStreaming: Display: FlushAsyncLoading(1568): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:519][111]LogStreaming: Display: FlushAsyncLoading(1570): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:535][112]LogStreaming: Display: FlushAsyncLoading(1572): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:552][113]LogStreaming: Display: FlushAsyncLoading(1574): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:570][114]LogStreaming: Display: FlushAsyncLoading(1576): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:586][115]LogStreaming: Display: FlushAsyncLoading(1578): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:602][116]LogStreaming: Display: FlushAsyncLoading(1580): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:619][117]LogStreaming: Display: FlushAsyncLoading(1582): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:636][118]LogStreaming: Display: FlushAsyncLoading(1584): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:652][119]LogStreaming: Display: FlushAsyncLoading(1586): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:669][120]LogStreaming: Display: FlushAsyncLoading(1588): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:685][121]LogStreaming: Display: FlushAsyncLoading(1590): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:703][122]LogStreaming: Display: FlushAsyncLoading(1592): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:819][129]LogStreaming: Display: FlushAsyncLoading(1594): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:836][130]LogStreaming: Display: FlushAsyncLoading(1596): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:852][131]LogStreaming: Display: FlushAsyncLoading(1598): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:869][132]LogStreaming: Display: FlushAsyncLoading(1600): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:886][133]LogStreaming: Display: FlushAsyncLoading(1602): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:902][134]LogStreaming: Display: FlushAsyncLoading(1604): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:919][135]LogStreaming: Display: FlushAsyncLoading(1606): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:937][136]LogStreaming: Display: FlushAsyncLoading(1608): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:952][137]LogStreaming: Display: FlushAsyncLoading(1610): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:969][138]LogStreaming: Display: FlushAsyncLoading(1612): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.05:986][139]LogStreaming: Display: FlushAsyncLoading(1614): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:002][140]LogStreaming: Display: FlushAsyncLoading(1616): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:019][141]LogStreaming: Display: FlushAsyncLoading(1618): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:036][142]LogStreaming: Display: FlushAsyncLoading(1620): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:052][143]LogStreaming: Display: FlushAsyncLoading(1622): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:070][144]LogStreaming: Display: FlushAsyncLoading(1624): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:085][145]LogStreaming: Display: FlushAsyncLoading(1626): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:102][146]LogStreaming: Display: FlushAsyncLoading(1628): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:119][147]LogStreaming: Display: FlushAsyncLoading(1630): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:136][148]LogStreaming: Display: FlushAsyncLoading(1632): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:153][149]LogStreaming: Display: FlushAsyncLoading(1634): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:168][150]LogStreaming: Display: FlushAsyncLoading(1636): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:186][151]LogStreaming: Display: FlushAsyncLoading(1638): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:202][152]LogStreaming: Display: FlushAsyncLoading(1640): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:219][153]LogStreaming: Display: FlushAsyncLoading(1642): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:236][154]LogStreaming: Display: FlushAsyncLoading(1644): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:252][155]LogStreaming: Display: FlushAsyncLoading(1646): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:269][156]LogStreaming: Display: FlushAsyncLoading(1648): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:286][157]LogStreaming: Display: FlushAsyncLoading(1650): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.06:322][158]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.05.19-10.25.07:316][158]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.25.07:334][158]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/WrongPotionSprite2.WrongPotionSprite2
+	Asset Type: PaperSprite
+[2025.05.19-10.25.07:554][158]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.05.19-10.25.07:571][158]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.05.19-10.25.07:589][158]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.05.19-10.25.07:614][159]LogStreaming: Display: FlushAsyncLoading(1652): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:653][160]LogStreaming: Display: FlushAsyncLoading(1655): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:665][161]LogStreaming: Display: FlushAsyncLoading(1657): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:679][162]LogStreaming: Display: FlushAsyncLoading(1659): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:697][163]LogStreaming: Display: FlushAsyncLoading(1661): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:713][164]LogStreaming: Display: FlushAsyncLoading(1663): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:730][165]LogStreaming: Display: FlushAsyncLoading(1665): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:747][166]LogStreaming: Display: FlushAsyncLoading(1667): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:764][167]LogStreaming: Display: FlushAsyncLoading(1669): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:810][168]LogStreaming: Display: FlushAsyncLoading(1671): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:823][169]LogStreaming: Display: FlushAsyncLoading(1673): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:838][170]LogStreaming: Display: FlushAsyncLoading(1675): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:856][171]LogStreaming: Display: FlushAsyncLoading(1677): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:871][172]LogStreaming: Display: FlushAsyncLoading(1679): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:888][173]LogStreaming: Display: FlushAsyncLoading(1681): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:905][174]LogStreaming: Display: FlushAsyncLoading(1683): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:922][175]LogStreaming: Display: FlushAsyncLoading(1685): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:938][176]LogStreaming: Display: FlushAsyncLoading(1687): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:955][177]LogStreaming: Display: FlushAsyncLoading(1689): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.07:971][178]LogStreaming: Display: FlushAsyncLoading(1691): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.08:088][185]LogStreaming: Display: FlushAsyncLoading(1693): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.08:105][186]LogStreaming: Display: FlushAsyncLoading(1695): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.08:121][187]LogStreaming: Display: FlushAsyncLoading(1697): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.08:138][188]LogStreaming: Display: FlushAsyncLoading(1699): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.08:155][189]LogStreaming: Display: FlushAsyncLoading(1701): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.08:192][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.05.19-10.25.08:732][190]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.25.08:749][190]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/WrongPotionSprite.WrongPotionSprite
+	Asset Type: PaperSprite
+[2025.05.19-10.25.08:968][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.05.19-10.25.08:987][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.05.19-10.25.09:006][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.05.19-10.25.10:496][275]LogStreaming: Display: FlushAsyncLoading(1703): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.10:496][275]LogStreaming: Display: ImportPackages: SkipPackage: /Game/WrongPotion2 (0xFECF0B325C7BC377) /Game/WrongPotion2 (0xFECF0B325C7BC377) - Skipping non mounted imported package /Game/WrongPotionSprite2 (0x7B589417A794B893)
+[2025.05.19-10.25.10:589][275]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/WrongPotionSprite2 which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.05.19-10.25.10:589][275]LoadErrors: Warning: /Game/WrongPotion2 paketini yüklemeye çalışırken /Game/WrongPotionSprite2 bağımlı paketi kullanılamaz. İlave açıklayıcı bilgiler şu şekildedir:
+FPackageName: Skipped package /Game/WrongPotionSprite2 has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/WrongPotionSprite2.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.05.19-10.25.10:705][283]LogDerivedDataCache: C:/Users/HP VICTUS/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.05.19-10.25.14:447][479]LogSlate: Window 'Yeniden Adlandırmalar Başarısız' being destroyed
+[2025.05.19-10.25.15:688][548]LogStreaming: Display: FlushAsyncLoading(1704): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.18:491][704]LogStreaming: Display: FlushAsyncLoading(1707): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.18:577][706]LogStreaming: Display: FlushAsyncLoading(1713): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.19:578][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.05.19-10.25.20:470][754]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.25.20:509][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.05.19-10.25.20:533][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.05.19-10.25.20:556][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.05.19-10.25.21:222][790]LogStreaming: Display: FlushAsyncLoading(1715): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.21:223][790]LogStreaming: Display: ImportPackages: SkipPackage: /Game/WrongPotion (0xFC47566E420734BA) /Game/WrongPotion (0xFC47566E420734BA) - Skipping non mounted imported package /Game/WrongPotionSprite (0x92752E7F799E4E54)
+[2025.05.19-10.25.21:251][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.05.19-10.25.23:005][790]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.25.23:027][790]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/WrongPotionSprite which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.05.19-10.25.23:027][790]LoadErrors: Warning: /Game/WrongPotion paketini yüklemeye çalışırken /Game/WrongPotionSprite bağımlı paketi kullanılamaz. İlave açıklayıcı bilgiler şu şekildedir:
+FPackageName: Skipped package /Game/WrongPotionSprite has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/WrongPotionSprite.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.05.19-10.25.25:755][936]LogStreaming: Display: FlushAsyncLoading(1716): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.25:798][937]LogStreaming: Display: FlushAsyncLoading(1722): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.27:533][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.05.19-10.25.28:381][ 37]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.25.28:412][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.05.19-10.25.28:430][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.05.19-10.25.28:450][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.05.19-10.25.30:062][129]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.05.19-10.25.32:910][129]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.25.32:930][129]LogAutomationController: Ignoring very large delta of 2.89 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.19-10.25.33:551][156]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.05.19-10.25.34:640][156]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.25.35:456][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.05.19-10.25.36:093][201]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.25.36:144][201]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/wood.wood
+	Asset Type: Texture2D
+[2025.05.19-10.25.36:327][201]LogMaterial: Warning: [AssetLog] /Engine/Transient.HouseWood: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.05.19-10.25.36:329][201]LogMaterial: Warning: HouseWood: Requesting an invalid TextureIndex! (0 / 1)
+[2025.05.19-10.25.36:330][201]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_0: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.05.19-10.25.36:331][201]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_0: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.05.19-10.25.36:332][201]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.05.19-10.25.36:333][201]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.05.19-10.25.36:382][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.05.19-10.25.36:400][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.05.19-10.25.36:421][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.05.19-10.25.39:128][356]LogStreaming: Display: FlushAsyncLoading(1725): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.39:299][366]LogStreaming: Display: FlushAsyncLoading(1728): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.40:566][442]LogStreaming: Display: FlushAsyncLoading(1731): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.43:332][576]LogSlate: Window 'Yeniden Adlandırmalar Başarısız' being destroyed
+[2025.05.19-10.25.44:526][645]LogStreaming: Display: FlushAsyncLoading(1732): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.45:037][674]LogStreaming: Display: FlushAsyncLoading(1735): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.45:059][675]LogStreaming: Display: FlushAsyncLoading(1737): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.45:076][676]LogStreaming: Display: FlushAsyncLoading(1739): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.45:092][677]LogStreaming: Display: FlushAsyncLoading(1741): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.45:108][678]LogStreaming: Display: FlushAsyncLoading(1743): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.45:125][679]LogStreaming: Display: FlushAsyncLoading(1745): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.45:143][680]LogStreaming: Display: FlushAsyncLoading(1747): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.45:158][681]LogStreaming: Display: FlushAsyncLoading(1749): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.45:175][682]LogStreaming: Display: FlushAsyncLoading(1751): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.45:192][683]LogStreaming: Display: FlushAsyncLoading(1753): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.45:798][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.05.19-10.25.46:732][717]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.25.46:760][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.05.19-10.25.46:780][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.05.19-10.25.46:799][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.05.19-10.25.46:986][727]LogStreaming: Display: FlushAsyncLoading(1755): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:004][728]LogStreaming: Display: FlushAsyncLoading(1758): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:020][729]LogStreaming: Display: FlushAsyncLoading(1760): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:037][730]LogStreaming: Display: FlushAsyncLoading(1762): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:054][731]LogStreaming: Display: FlushAsyncLoading(1764): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:070][732]LogStreaming: Display: FlushAsyncLoading(1766): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:087][733]LogStreaming: Display: FlushAsyncLoading(1768): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:103][734]LogStreaming: Display: FlushAsyncLoading(1770): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:121][735]LogStreaming: Display: FlushAsyncLoading(1772): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:137][736]LogStreaming: Display: FlushAsyncLoading(1774): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:153][737]LogStreaming: Display: FlushAsyncLoading(1776): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:170][738]LogStreaming: Display: FlushAsyncLoading(1778): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:188][739]LogStreaming: Display: FlushAsyncLoading(1780): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:204][740]LogStreaming: Display: FlushAsyncLoading(1782): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:220][741]LogStreaming: Display: FlushAsyncLoading(1784): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:236][742]LogStreaming: Display: FlushAsyncLoading(1786): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:254][743]LogStreaming: Display: FlushAsyncLoading(1788): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:270][744]LogStreaming: Display: FlushAsyncLoading(1790): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:287][745]LogStreaming: Display: FlushAsyncLoading(1792): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:303][746]LogStreaming: Display: FlushAsyncLoading(1794): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:320][747]LogStreaming: Display: FlushAsyncLoading(1796): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:337][748]LogStreaming: Display: FlushAsyncLoading(1798): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:354][749]LogStreaming: Display: FlushAsyncLoading(1800): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:370][750]LogStreaming: Display: FlushAsyncLoading(1802): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:437][754]LogStreaming: Display: FlushAsyncLoading(1804): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:453][755]LogStreaming: Display: FlushAsyncLoading(1806): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:470][756]LogStreaming: Display: FlushAsyncLoading(1808): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:487][757]LogStreaming: Display: FlushAsyncLoading(1810): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:503][758]LogStreaming: Display: FlushAsyncLoading(1812): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:520][759]LogStreaming: Display: FlushAsyncLoading(1814): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:536][760]LogStreaming: Display: FlushAsyncLoading(1816): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:553][761]LogStreaming: Display: FlushAsyncLoading(1818): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:570][762]LogStreaming: Display: FlushAsyncLoading(1820): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:587][763]LogStreaming: Display: FlushAsyncLoading(1822): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:603][764]LogStreaming: Display: FlushAsyncLoading(1824): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:620][765]LogStreaming: Display: FlushAsyncLoading(1826): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:637][766]LogStreaming: Display: FlushAsyncLoading(1828): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:653][767]LogStreaming: Display: FlushAsyncLoading(1830): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:670][768]LogStreaming: Display: FlushAsyncLoading(1832): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:686][769]LogStreaming: Display: FlushAsyncLoading(1834): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:703][770]LogStreaming: Display: FlushAsyncLoading(1836): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:720][771]LogStreaming: Display: FlushAsyncLoading(1838): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:736][772]LogStreaming: Display: FlushAsyncLoading(1840): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:753][773]LogStreaming: Display: FlushAsyncLoading(1842): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:770][774]LogStreaming: Display: FlushAsyncLoading(1844): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:787][775]LogStreaming: Display: FlushAsyncLoading(1846): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:803][776]LogStreaming: Display: FlushAsyncLoading(1848): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.47:820][777]LogStreaming: Display: FlushAsyncLoading(1850): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:004][788]LogStreaming: Display: FlushAsyncLoading(1852): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:020][789]LogStreaming: Display: FlushAsyncLoading(1854): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:037][790]LogStreaming: Display: FlushAsyncLoading(1856): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:054][791]LogStreaming: Display: FlushAsyncLoading(1858): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:070][792]LogStreaming: Display: FlushAsyncLoading(1860): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:088][793]LogStreaming: Display: FlushAsyncLoading(1862): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:104][794]LogStreaming: Display: FlushAsyncLoading(1864): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:120][795]LogStreaming: Display: FlushAsyncLoading(1866): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:136][796]LogStreaming: Display: FlushAsyncLoading(1868): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:154][797]LogStreaming: Display: FlushAsyncLoading(1870): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:170][798]LogStreaming: Display: FlushAsyncLoading(1872): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:187][799]LogStreaming: Display: FlushAsyncLoading(1874): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:203][800]LogStreaming: Display: FlushAsyncLoading(1876): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:220][801]LogStreaming: Display: FlushAsyncLoading(1878): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:237][802]LogStreaming: Display: FlushAsyncLoading(1880): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:254][803]LogStreaming: Display: FlushAsyncLoading(1882): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:270][804]LogStreaming: Display: FlushAsyncLoading(1884): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:287][805]LogStreaming: Display: FlushAsyncLoading(1886): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:304][806]LogStreaming: Display: FlushAsyncLoading(1888): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:320][807]LogStreaming: Display: FlushAsyncLoading(1890): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:337][808]LogStreaming: Display: FlushAsyncLoading(1892): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:354][809]LogStreaming: Display: FlushAsyncLoading(1894): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:371][810]LogStreaming: Display: FlushAsyncLoading(1896): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:387][811]LogStreaming: Display: FlushAsyncLoading(1898): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:404][812]LogStreaming: Display: FlushAsyncLoading(1900): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:421][813]LogStreaming: Display: FlushAsyncLoading(1902): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:437][814]LogStreaming: Display: FlushAsyncLoading(1904): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:453][815]LogStreaming: Display: FlushAsyncLoading(1906): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:470][816]LogStreaming: Display: FlushAsyncLoading(1908): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.48:596][821]LogStreaming: Display: FlushAsyncLoading(1910): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.50:367][906]LogStreaming: Display: FlushAsyncLoading(1912): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.50:374][906]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.19-10.25.50:375][906]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ReturnPotion] ([2] browsable assets)...
+[2025.05.19-10.25.50:375][906]OBJ SavePackage: Finished generating thumbnails for package [/Game/ReturnPotion]
+[2025.05.19-10.25.50:375][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ReturnPotion" FILE="../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/ReturnPotion.uasset" SILENT=true
+[2025.05.19-10.25.50:379][906]LogSavePackage: Moving output files for package: /Game/ReturnPotion
+[2025.05.19-10.25.50:379][906]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/ReturnPotionFA46A9AF4D86C68169C21D8026506EF4.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/ReturnPotion.uasset'
+[2025.05.19-10.25.50:381][906]LogFileHelpers: InternalPromptForCheckoutAndSave took 6.259 ms (total: 789.037 ms)
+[2025.05.19-10.25.50:478][906]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.05.19-10.25.50:478][906]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.19-10.25.50:478][906]LogContentValidation: Enabled validators:
+[2025.05.19-10.25.50:478][906]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.19-10.25.50:478][906]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.19-10.25.50:478][906]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.19-10.25.50:478][906]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.19-10.25.50:478][906]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.19-10.25.50:478][906]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.19-10.25.50:478][906]AssetCheck: /Game/ReturnPotion Öğe doğrulama
+[2025.05.19-10.25.51:374][957]LogSlate: Window 'Yeniden Adlandırmalar Başarısız' being destroyed
+[2025.05.19-10.25.52:842][ 42]LogStreaming: Display: FlushAsyncLoading(1913): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.52:929][ 45]LogStreaming: Display: FlushAsyncLoading(1916): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.52:944][ 46]LogStreaming: Display: FlushAsyncLoading(1919): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.52:960][ 47]LogStreaming: Display: FlushAsyncLoading(1921): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.52:975][ 48]LogStreaming: Display: FlushAsyncLoading(1923): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.52:992][ 49]LogStreaming: Display: FlushAsyncLoading(1925): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:009][ 50]LogStreaming: Display: FlushAsyncLoading(1927): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:031][ 51]LogStreaming: Display: FlushAsyncLoading(1929): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:047][ 52]LogStreaming: Display: FlushAsyncLoading(1931): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:289][ 66]LogStreaming: Display: FlushAsyncLoading(1933): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:308][ 67]LogStreaming: Display: FlushAsyncLoading(1935): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:324][ 68]LogStreaming: Display: FlushAsyncLoading(1937): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:341][ 69]LogStreaming: Display: FlushAsyncLoading(1939): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:357][ 70]LogStreaming: Display: FlushAsyncLoading(1941): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:373][ 71]LogStreaming: Display: FlushAsyncLoading(1943): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:391][ 72]LogStreaming: Display: FlushAsyncLoading(1945): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:407][ 73]LogStreaming: Display: FlushAsyncLoading(1947): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:424][ 74]LogStreaming: Display: FlushAsyncLoading(1949): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:441][ 75]LogStreaming: Display: FlushAsyncLoading(1951): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:457][ 76]LogStreaming: Display: FlushAsyncLoading(1953): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:607][ 85]LogStreaming: Display: FlushAsyncLoading(1955): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:623][ 86]LogStreaming: Display: FlushAsyncLoading(1957): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:641][ 87]LogStreaming: Display: FlushAsyncLoading(1959): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:657][ 88]LogStreaming: Display: FlushAsyncLoading(1961): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.25.53:712][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2025.05.19-10.25.56:491][ 89]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.25.56:517][ 89]LogAutomationController: Ignoring very large delta of 2.85 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.19-10.26.03:710][502]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/PotionsPuzzle2/ReturnPotionSprite.ReturnPotionSprite
+[2025.05.19-10.26.03:717][502]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.05.19-10.26.05:616][594]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.26.05:617][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.26.05:664][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.05.19-10.26.08:953][765]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.05.19-10.26.10:187][765]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.26.11:311][828]LogStreaming: Display: FlushAsyncLoading(1963): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:355][829]LogStreaming: Display: FlushAsyncLoading(1969): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:482][836]LogStreaming: Display: FlushAsyncLoading(1972): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:503][837]LogStreaming: Display: FlushAsyncLoading(1974): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:520][838]LogStreaming: Display: FlushAsyncLoading(1976): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:537][839]LogStreaming: Display: FlushAsyncLoading(1978): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:554][840]LogStreaming: Display: FlushAsyncLoading(1980): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:570][841]LogStreaming: Display: FlushAsyncLoading(1982): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:587][842]LogStreaming: Display: FlushAsyncLoading(1984): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:603][843]LogStreaming: Display: FlushAsyncLoading(1986): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:620][844]LogStreaming: Display: FlushAsyncLoading(1988): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:637][845]LogStreaming: Display: FlushAsyncLoading(1990): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:653][846]LogStreaming: Display: FlushAsyncLoading(1992): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:670][847]LogStreaming: Display: FlushAsyncLoading(1994): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:770][853]LogStreaming: Display: FlushAsyncLoading(1996): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:788][854]LogStreaming: Display: FlushAsyncLoading(1998): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:803][855]LogStreaming: Display: FlushAsyncLoading(2000): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:821][856]LogStreaming: Display: FlushAsyncLoading(2002): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:837][857]LogStreaming: Display: FlushAsyncLoading(2004): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:854][858]LogStreaming: Display: FlushAsyncLoading(2006): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:871][859]LogStreaming: Display: FlushAsyncLoading(2008): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:887][860]LogStreaming: Display: FlushAsyncLoading(2010): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.11:904][861]LogStreaming: Display: FlushAsyncLoading(2012): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.13:172][937]LogStreaming: Display: FlushAsyncLoading(2014): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.13:191][938]LogStreaming: Display: FlushAsyncLoading(2016): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.13:207][939]LogStreaming: Display: FlushAsyncLoading(2018): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.13:224][940]LogStreaming: Display: FlushAsyncLoading(2020): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.13:240][941]LogStreaming: Display: FlushAsyncLoading(2022): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.13:257][942]LogStreaming: Display: FlushAsyncLoading(2024): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.13:373][949]LogStreaming: Display: FlushAsyncLoading(2026): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.13:390][950]LogStreaming: Display: FlushAsyncLoading(2028): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.13:406][951]LogStreaming: Display: FlushAsyncLoading(2030): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.13:423][952]LogStreaming: Display: FlushAsyncLoading(2032): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.13:459][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.05.19-10.26.14:462][953]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.26.14:563][953]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/ReturnPotionSprite.ReturnPotionSprite
+	Asset Type: PaperSprite
+[2025.05.19-10.26.14:793][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.05.19-10.26.14:811][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.05.19-10.26.14:828][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.05.19-10.26.19:568][206]LogSlate: Window 'Yeniden Adlandırmalar Başarısız' being destroyed
+[2025.05.19-10.26.22:003][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.05.19-10.26.22:936][345]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.26.22:966][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.05.19-10.26.22:985][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.05.19-10.26.23:001][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.05.19-10.26.23:120][348]LogStreaming: Display: FlushAsyncLoading(2034): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.24:431][426]LogStreaming: Display: FlushAsyncLoading(2037): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.27:531][579]LogSlate: Window 'Yeniden Adlandırmalar Başarısız' being destroyed
+[2025.05.19-10.26.29:248][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.05.19-10.26.30:950][671]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.26.30:983][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.05.19-10.26.31:000][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.05.19-10.26.31:018][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.05.19-10.26.31:731][704]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.05.19-10.26.32:897][704]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.26.33:009][710]LogStreaming: Display: FlushAsyncLoading(2038): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.33:030][711]LogStreaming: Display: FlushAsyncLoading(2041): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.33:046][712]LogStreaming: Display: FlushAsyncLoading(2043): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.33:063][713]LogStreaming: Display: FlushAsyncLoading(2045): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.36:146][869]LogStreaming: Display: FlushAsyncLoading(2047): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.36:146][869]LogStreaming: Display: ImportPackages: SkipPackage: /Game/NopePotion (0xFF0D6333EB18CC59) /Game/NopePotion (0xFF0D6333EB18CC59) - Skipping non mounted imported package /Game/Potions/Anlamsiz (0x468AA843C6B5CD1E)
+[2025.05.19-10.26.36:165][869]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.19-10.26.36:165][869]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NopePotion] ([2] browsable assets)...
+[2025.05.19-10.26.36:165][869]OBJ SavePackage: Finished generating thumbnails for package [/Game/NopePotion]
+[2025.05.19-10.26.36:165][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NopePotion" FILE="../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/NopePotion.uasset" SILENT=true
+[2025.05.19-10.26.36:170][869]LogSavePackage: Moving output files for package: /Game/NopePotion
+[2025.05.19-10.26.36:170][869]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/NopePotionF1A9747B4176E1EF37183A82EBDAC316.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/NopePotion.uasset'
+[2025.05.19-10.26.36:171][869]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/IllusionPotion] ([2] browsable assets)...
+[2025.05.19-10.26.36:172][869]OBJ SavePackage: Finished generating thumbnails for package [/Game/IllusionPotion]
+[2025.05.19-10.26.36:172][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/IllusionPotion" FILE="../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/IllusionPotion.uasset" SILENT=true
+[2025.05.19-10.26.36:178][869]LogSavePackage: Moving output files for package: /Game/IllusionPotion
+[2025.05.19-10.26.36:178][869]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/IllusionPotion56673ADB41B5F191DD21F7855B2BE7BC.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/IllusionPotion.uasset'
+[2025.05.19-10.26.36:180][869]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PoisonPotion] ([2] browsable assets)...
+[2025.05.19-10.26.36:180][869]OBJ SavePackage: Finished generating thumbnails for package [/Game/PoisonPotion]
+[2025.05.19-10.26.36:180][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PoisonPotion" FILE="../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/PoisonPotion.uasset" SILENT=true
+[2025.05.19-10.26.36:183][869]LogSavePackage: Moving output files for package: /Game/PoisonPotion
+[2025.05.19-10.26.36:184][869]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/PoisonPotionC8C8CF1742589EC716F6098759DB3D5F.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/PoisonPotion.uasset'
+[2025.05.19-10.26.36:185][869]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PoisonPotion2] ([2] browsable assets)...
+[2025.05.19-10.26.36:185][869]OBJ SavePackage: Finished generating thumbnails for package [/Game/PoisonPotion2]
+[2025.05.19-10.26.36:185][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PoisonPotion2" FILE="../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/PoisonPotion2.uasset" SILENT=true
+[2025.05.19-10.26.36:188][869]LogSavePackage: Moving output files for package: /Game/PoisonPotion2
+[2025.05.19-10.26.36:189][869]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/PoisonPotion291A972E64071A9FE6E3348B5624BB282.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/PoisonPotion2.uasset'
+[2025.05.19-10.26.36:190][869]LogFileHelpers: InternalPromptForCheckoutAndSave took 24.221 ms (total: 813.258 ms)
+[2025.05.19-10.26.36:280][869]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.05.19-10.26.36:280][869]LogContentValidation: Display: Starting to validate 4 assets
+[2025.05.19-10.26.36:280][869]LogContentValidation: Enabled validators:
+[2025.05.19-10.26.36:280][869]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.19-10.26.36:280][869]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.19-10.26.36:280][869]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.19-10.26.36:280][869]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.19-10.26.36:280][869]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.19-10.26.36:280][869]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.19-10.26.36:280][869]AssetCheck: /Game/NopePotion Öğe doğrulama
+[2025.05.19-10.26.36:280][869]AssetCheck: /Game/IllusionPotion Öğe doğrulama
+[2025.05.19-10.26.36:280][869]AssetCheck: /Game/PoisonPotion Öğe doğrulama
+[2025.05.19-10.26.36:280][869]AssetCheck: /Game/PoisonPotion2 Öğe doğrulama
+[2025.05.19-10.26.36:297][869]LogPackageName: Warning: GetLocalFullPath called on FPackagePath ../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Potions/Anlamsiz which has an unspecified header extension, and the path does not exist on disk. Assuming EPackageExtension::Asset.
+[2025.05.19-10.26.36:297][869]LoadErrors: Warning: /Game/NopePotion paketini yüklemeye çalışırken /Game/Potions/Anlamsiz bağımlı paketi kullanılamaz. İlave açıklayıcı bilgiler şu şekildedir:
+FPackageName: Skipped package /Game/Potions/Anlamsiz has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Potions/Anlamsiz.uasset'. Perhaps it has been deleted or was not synced?
+
+[2025.05.19-10.26.37:233][925]LogSlate: Window 'Yeniden Adlandırmalar Başarısız' being destroyed
+[2025.05.19-10.26.38:473][996]LogStreaming: Display: FlushAsyncLoading(2050): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.39:279][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.05.19-10.26.40:168][ 38]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.26.40:272][ 38]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Potion.Potion
+	Asset Type: Blueprint
+[2025.05.19-10.26.40:289][ 38]LogBlueprint: Warning: [AssetLog] C:\Users\HP VICTUS\Documents\GitHub\TheFourMusketeer\Unreal\HallowedDecay\Content\PoisonPotion.uasset: [Compiler] '/Game/PoisonPotion.PoisonPotion_C‘ içinde "Potion_Sprite“ adlı bir değişken bulunamadı.
+'/Game/PoisonPotion.PoisonPotion_C' öğesinin  Get Potion_Sprite  için derlendiğinden emin ol
+[2025.05.19-10.26.40:290][ 38]LogBlueprint: Error: [AssetLog] C:\Users\HP VICTUS\Documents\GitHub\TheFourMusketeer\Unreal\HallowedDecay\Content\PoisonPotion.uasset: [Compiler] Bu blueprint (kendisi) bir Potion_C değil, bu nedenle ' Target ' öğesinin bir bağlantısı olmalı.
+[2025.05.19-10.26.40:293][ 38]LogBlueprint: Warning: [AssetLog] C:\Users\HP VICTUS\Documents\GitHub\TheFourMusketeer\Unreal\HallowedDecay\Content\NopePotion.uasset: [Compiler] '/Game/NopePotion.NopePotion_C‘ içinde "Potion_Sprite“ adlı bir değişken bulunamadı.
+'/Game/NopePotion.NopePotion_C' öğesinin  Get Potion_Sprite  için derlendiğinden emin ol
+[2025.05.19-10.26.40:293][ 38]LogBlueprint: Error: [AssetLog] C:\Users\HP VICTUS\Documents\GitHub\TheFourMusketeer\Unreal\HallowedDecay\Content\NopePotion.uasset: [Compiler] Bu blueprint (kendisi) bir Potion_C değil, bu nedenle ' Target ' öğesinin bir bağlantısı olmalı.
+[2025.05.19-10.26.40:295][ 38]LogBlueprint: Warning: [AssetLog] C:\Users\HP VICTUS\Documents\GitHub\TheFourMusketeer\Unreal\HallowedDecay\Content\PoisonPotion2.uasset: [Compiler] '/Game/PoisonPotion2.PoisonPotion2_C‘ içinde "Potion_Sprite“ adlı bir değişken bulunamadı.
+'/Game/PoisonPotion2.PoisonPotion2_C' öğesinin  Get Potion_Sprite  için derlendiğinden emin ol
+[2025.05.19-10.26.40:296][ 38]LogBlueprint: Error: [AssetLog] C:\Users\HP VICTUS\Documents\GitHub\TheFourMusketeer\Unreal\HallowedDecay\Content\PoisonPotion2.uasset: [Compiler] Bu blueprint (kendisi) bir Potion_C değil, bu nedenle ' Target ' öğesinin bir bağlantısı olmalı.
+[2025.05.19-10.26.40:502][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.05.19-10.26.40:558][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.05.19-10.26.40:578][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.05.19-10.26.40:597][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.05.19-10.26.42:792][165]LogStreaming: Display: FlushAsyncLoading(2053): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.42:836][166]LogStreaming: Display: FlushAsyncLoading(2056): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.48:697][506]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.05.19-10.26.48:994][506]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.05.19-10.26.50:090][506]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.26.51:052][558]LogStreaming: Display: FlushAsyncLoading(2059): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.51:098][559]LogStreaming: Display: FlushAsyncLoading(2062): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:070][616]LogStreaming: Display: FlushAsyncLoading(2065): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:087][617]LogStreaming: Display: FlushAsyncLoading(2067): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:104][618]LogStreaming: Display: FlushAsyncLoading(2069): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:120][619]LogStreaming: Display: FlushAsyncLoading(2071): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:144][620]LogStreaming: Display: FlushAsyncLoading(2073): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:158][621]LogStreaming: Display: FlushAsyncLoading(2075): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:175][622]LogStreaming: Display: FlushAsyncLoading(2077): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:192][623]LogStreaming: Display: FlushAsyncLoading(2079): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:209][624]LogStreaming: Display: FlushAsyncLoading(2081): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:226][625]LogStreaming: Display: FlushAsyncLoading(2083): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:242][626]LogStreaming: Display: FlushAsyncLoading(2085): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:259][627]LogStreaming: Display: FlushAsyncLoading(2087): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:276][628]LogStreaming: Display: FlushAsyncLoading(2089): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:292][629]LogStreaming: Display: FlushAsyncLoading(2091): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:309][630]LogStreaming: Display: FlushAsyncLoading(2093): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:326][631]LogStreaming: Display: FlushAsyncLoading(2095): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:343][632]LogStreaming: Display: FlushAsyncLoading(2097): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:376][634]LogStreaming: Display: FlushAsyncLoading(2099): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:392][635]LogStreaming: Display: FlushAsyncLoading(2101): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:409][636]LogStreaming: Display: FlushAsyncLoading(2103): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:426][637]LogStreaming: Display: FlushAsyncLoading(2105): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:442][638]LogStreaming: Display: FlushAsyncLoading(2107): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:459][639]LogStreaming: Display: FlushAsyncLoading(2109): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:475][640]LogStreaming: Display: FlushAsyncLoading(2111): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:492][641]LogStreaming: Display: FlushAsyncLoading(2113): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:509][642]LogStreaming: Display: FlushAsyncLoading(2115): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:525][643]LogStreaming: Display: FlushAsyncLoading(2117): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:542][644]LogStreaming: Display: FlushAsyncLoading(2119): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:559][645]LogStreaming: Display: FlushAsyncLoading(2121): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:576][646]LogStreaming: Display: FlushAsyncLoading(2123): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:592][647]LogStreaming: Display: FlushAsyncLoading(2125): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:609][648]LogStreaming: Display: FlushAsyncLoading(2127): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:626][649]LogStreaming: Display: FlushAsyncLoading(2129): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:642][650]LogStreaming: Display: FlushAsyncLoading(2131): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:659][651]LogStreaming: Display: FlushAsyncLoading(2133): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:676][652]LogStreaming: Display: FlushAsyncLoading(2135): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:692][653]LogStreaming: Display: FlushAsyncLoading(2137): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:709][654]LogStreaming: Display: FlushAsyncLoading(2139): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:725][655]LogStreaming: Display: FlushAsyncLoading(2141): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:742][656]LogStreaming: Display: FlushAsyncLoading(2143): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:759][657]LogStreaming: Display: FlushAsyncLoading(2145): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:776][658]LogStreaming: Display: FlushAsyncLoading(2147): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:792][659]LogStreaming: Display: FlushAsyncLoading(2149): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.52:809][660]LogStreaming: Display: FlushAsyncLoading(2151): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.26.58:377][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.05.19-10.26.59:464][978]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.27.01:071][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.05.19-10.27.02:326][ 69]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.27.05:930][256]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.19-10.27.05:930][256]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Doğruİksir_Sprite] ([1] browsable assets)...
+[2025.05.19-10.27.05:930][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/Doğruİksir_Sprite]
+[2025.05.19-10.27.05:930][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Doğruİksir_Sprite" FILE="../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Doğruİksir_Sprite.uasset" SILENT=true
+[2025.05.19-10.27.05:932][256]LogSavePackage: Moving output files for package: /Game/Doğruİksir_Sprite
+[2025.05.19-10.27.05:932][256]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/Doğruİksir_SpriteAC1953AB4AD517EF4980868AE1A3B421.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Doğruİksir_Sprite.uasset'
+[2025.05.19-10.27.05:933][256]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.894 ms (total: 816.153 ms)
+[2025.05.19-10.27.06:030][256]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.05.19-10.27.06:030][256]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.19-10.27.06:030][256]LogContentValidation: Enabled validators:
+[2025.05.19-10.27.06:030][256]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.19-10.27.06:030][256]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.19-10.27.06:030][256]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.19-10.27.06:030][256]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.19-10.27.06:030][256]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.19-10.27.06:030][256]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.19-10.27.06:030][256]AssetCheck: /Game/Doğruİksir_Sprite Öğe doğrulama
+[2025.05.19-10.27.08:923][426]LogSlate: Window 'Yeniden Adlandırmalar Başarısız' being destroyed
+[2025.05.19-10.27.10:960][539]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.05.19-10.27.11:985][539]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.27.12:014][539]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Doğruİksir.Doğruİksir
+	Asset Type: Texture2D
+[2025.05.19-10.27.13:537][539]LogSlate: Window 'Mesaj' being destroyed
+[2025.05.19-10.27.13:547][539]Message dialog closed, result: Ok, title: Mesaj, text: Texture2D /Game/Doğruİksir.Doğruİksir kullanımda.
+
+---
+Obje başlangıçta yüklenmişse editörü '-No Load Startup Packages' ile çalıştırmak yardımcı olabilir.
+---
+
+
+External referencers of Texture2D /Game/Doğruİksir.Doğruİksir:
+   PaperSprite /Game/Doğruİksir_Sprite.Doğruİksir_Sprite (standalone) (2)
+      0) ObjectProperty /Script/Paper2D.PaperSprite:SourceTextureCacheNeverSerialized
+      1) ObjectProperty /Script/Paper2D.PaperSprite:BakedSourceTexture
+
+
+[2025.05.19-10.27.13:547][539]LogObjectTools: Warning: ForceDeleteObject failed to delete Doğruİksir, this package is now potentially corrupt
+[2025.05.19-10.27.13:571][539]LogAutomationController: Ignoring very large delta of 2.66 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.19-10.27.14:455][582]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.05.19-10.27.15:264][582]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.27.15:293][582]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.05.19-10.27.15:313][582]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.05.19-10.27.15:331][582]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.05.19-10.27.19:994][842]LogStreaming: Display: FlushAsyncLoading(2153): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.20:447][865]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7445.087891
+[2025.05.19-10.27.20:700][880]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.19-10.27.20:700][881]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7445.325195, Update Interval: 321.691345
+[2025.05.19-10.27.20:758][883]LogStreaming: Display: FlushAsyncLoading(2156): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.20:772][884]LogStreaming: Display: FlushAsyncLoading(2158): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.20:790][885]LogStreaming: Display: FlushAsyncLoading(2160): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.21:275][912]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.05.19-10.27.22:025][912]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.27.22:056][912]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.05.19-10.27.22:074][912]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.05.19-10.27.22:092][912]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.05.19-10.27.23:938][ 12]LogStreaming: Display: FlushAsyncLoading(2162): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.23:963][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.05.19-10.27.25:098][ 12]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.27.25:741][ 45]LogStreaming: Display: FlushAsyncLoading(2163): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.25:762][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.05.19-10.27.26:644][ 45]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.27.26:690][ 47]LogStreaming: Display: FlushAsyncLoading(2164): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.26:703][ 48]LogStreaming: Display: FlushAsyncLoading(2167): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.26:718][ 49]LogStreaming: Display: FlushAsyncLoading(2169): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.26:823][ 54]LogStreaming: Display: FlushAsyncLoading(2171): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.27:470][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.05.19-10.27.29:361][ 90]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.27.29:388][ 91]LogStreaming: Display: FlushAsyncLoading(2174): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.29:437][ 92]LogStreaming: Display: FlushAsyncLoading(2177): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.29:754][106]LogStreaming: Display: FlushAsyncLoading(2179): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.29:775][107]LogStreaming: Display: FlushAsyncLoading(2182): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.29:790][108]LogStreaming: Display: FlushAsyncLoading(2184): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.29:803][109]LogStreaming: Display: FlushAsyncLoading(2186): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.29:819][110]LogStreaming: Display: FlushAsyncLoading(2188): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.29:835][111]LogStreaming: Display: FlushAsyncLoading(2190): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.29:971][119]LogStreaming: Display: FlushAsyncLoading(2192): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.29:986][120]LogStreaming: Display: FlushAsyncLoading(2194): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.30:003][121]LogStreaming: Display: FlushAsyncLoading(2196): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.30:020][122]LogStreaming: Display: FlushAsyncLoading(2198): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.30:036][123]LogStreaming: Display: FlushAsyncLoading(2200): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.30:075][124]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.05.19-10.27.32:536][124]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.27.32:619][124]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/IllPotionSprite.IllPotionSprite
+	Asset Type: PaperSprite
+[2025.05.19-10.27.32:862][124]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.05.19-10.27.32:884][124]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.05.19-10.27.32:908][124]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.05.19-10.27.32:938][124]LogAutomationController: Ignoring very large delta of 2.89 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.19-10.27.33:971][173]LogStreaming: Display: FlushAsyncLoading(2202): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.33:990][174]LogStreaming: Display: FlushAsyncLoading(2205): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.34:005][175]LogStreaming: Display: FlushAsyncLoading(2207): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.34:024][176]LogStreaming: Display: FlushAsyncLoading(2209): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.34:039][177]LogStreaming: Display: FlushAsyncLoading(2211): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.34:056][178]LogStreaming: Display: FlushAsyncLoading(2213): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.34:072][179]LogStreaming: Display: FlushAsyncLoading(2215): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.34:239][189]LogStreaming: Display: FlushAsyncLoading(2217): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.34:255][190]LogStreaming: Display: FlushAsyncLoading(2219): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.34:271][191]LogStreaming: Display: FlushAsyncLoading(2221): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.34:309][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.05.19-10.27.34:960][192]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.27.34:979][192]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/PoisonPotionSprite.PoisonPotionSprite
+	Asset Type: PaperSprite
+[2025.05.19-10.27.35:200][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.05.19-10.27.35:219][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.05.19-10.27.35:238][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.05.19-10.27.35:910][226]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.05.19-10.27.36:548][226]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.27.36:567][226]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/PoisonPotionSprite2.PoisonPotionSprite2
+	Asset Type: PaperSprite
+[2025.05.19-10.27.36:786][226]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.05.19-10.27.36:803][226]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.05.19-10.27.36:824][226]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.05.19-10.27.37:827][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.05.19-10.27.38:580][281]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.27.38:614][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.05.19-10.27.38:633][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.05.19-10.27.38:650][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.05.19-10.27.39:293][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.05.19-10.27.39:855][316]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.27.39:884][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.05.19-10.27.39:903][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.05.19-10.27.39:923][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.05.19-10.27.40:415][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.05.19-10.27.40:944][341]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.27.40:976][341]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.05.19-10.27.40:994][341]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.05.19-10.27.41:012][341]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.05.19-10.27.45:127][556]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.19-10.27.45:127][556]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Potions/Zehir2] ([1] browsable assets)...
+[2025.05.19-10.27.45:127][556]OBJ SavePackage: Finished generating thumbnails for package [/Game/Potions/Zehir2]
+[2025.05.19-10.27.45:127][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Potions/Zehir2" FILE="../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Potions/Zehir2.uasset" SILENT=true
+[2025.05.19-10.27.45:129][556]LogSavePackage: Moving output files for package: /Game/Potions/Zehir2
+[2025.05.19-10.27.45:129][556]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/Zehir2892C51004A4BEB664C437396CE234D63.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Potions/Zehir2.uasset'
+[2025.05.19-10.27.45:135][556]LogFileHelpers: InternalPromptForCheckoutAndSave took 8.486 ms (total: 824.640 ms)
+[2025.05.19-10.27.45:187][556]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.05.19-10.27.45:206][556]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.05.19-10.27.45:224][556]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.05.19-10.27.45:277][556]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.05.19-10.27.45:277][556]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.19-10.27.45:277][556]LogContentValidation: Enabled validators:
+[2025.05.19-10.27.45:277][556]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.19-10.27.45:277][556]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.19-10.27.45:277][556]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.19-10.27.45:277][556]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.19-10.27.45:277][556]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.19-10.27.45:277][556]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.19-10.27.45:277][556]AssetCheck: /Game/Potions/Zehir2 Öğe doğrulama
+[2025.05.19-10.27.48:513][721]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.19-10.27.48:513][721]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Potions/Doğruİksir] ([1] browsable assets)...
+[2025.05.19-10.27.48:513][721]OBJ SavePackage: Finished generating thumbnails for package [/Game/Potions/Doğruİksir]
+[2025.05.19-10.27.48:513][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Potions/Doğruİksir" FILE="../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Potions/Doğruİksir.uasset" SILENT=true
+[2025.05.19-10.27.48:515][721]LogSavePackage: Moving output files for package: /Game/Potions/Doğruİksir
+[2025.05.19-10.27.48:515][721]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/Doğruİksir1C91F6DB4A8D687F2CB34BA61E3AC028.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/Potions/Doğruİksir.uasset'
+[2025.05.19-10.27.48:516][721]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.701 ms (total: 827.341 ms)
+[2025.05.19-10.27.48:566][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.05.19-10.27.48:586][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.05.19-10.27.48:605][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.05.19-10.27.48:658][721]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.05.19-10.27.48:658][721]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.19-10.27.48:658][721]LogContentValidation: Enabled validators:
+[2025.05.19-10.27.48:658][721]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.19-10.27.48:658][721]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.19-10.27.48:658][721]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.19-10.27.48:658][721]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.19-10.27.48:658][721]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.19-10.27.48:658][721]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.19-10.27.48:658][721]AssetCheck: /Game/Potions/Doğruİksir Öğe doğrulama
+[2025.05.19-10.27.54:750][ 86]LogStreaming: Display: FlushAsyncLoading(2223): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.27.57:857][242]LogSlate: Window 'Yeniden Adlandırmalar Başarısız' being destroyed
+[2025.05.19-10.28.00:523][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.05.19-10.28.01:328][395]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.28.01:355][395]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.05.19-10.28.01:372][395]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.05.19-10.28.01:391][395]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.05.19-10.28.02:471][453]LogStreaming: Display: FlushAsyncLoading(2224): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.28.02:496][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.05.19-10.28.04:602][453]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.28.04:633][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.05.19-10.28.04:650][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.05.19-10.28.04:668][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.05.19-10.28.04:683][453]LogAutomationController: Ignoring very large delta of 2.22 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.19-10.28.05:677][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.05.19-10.28.06:636][466]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.28.08:711][587]LogStreaming: Display: FlushAsyncLoading(2225): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.28.12:261][767]LogSlate: Window 'Yeniden Adlandırmalar Başarısız' being destroyed
+[2025.05.19-10.28.14:246][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.05.19-10.28.15:169][873]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.28.15:198][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.05.19-10.28.15:221][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.05.19-10.28.15:239][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.05.19-10.28.16:930][968]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.05.19-10.28.18:366][968]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.28.20:532][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.05.19-10.28.22:066][ 88]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.28.23:700][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.05.19-10.28.25:282][176]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.28.25:310][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.05.19-10.28.25:331][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.05.19-10.28.25:351][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.05.19-10.28.26:014][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.05.19-10.28.26:912][199]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.28.26:941][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.05.19-10.28.26:959][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.05.19-10.28.26:980][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.05.19-10.28.28:477][286]LogDebuggerCommands: Repeating last play command: Seçilen Görünüm Penceresi
+[2025.05.19-10.28.28:485][286]LogContentBundle: [FirstPersonMap(Bağımsız)] Generating Streaming for 0 Content Bundles.
+[2025.05.19-10.28.28:485][286]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.05.19-10.28.28:489][286]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 3.566 ms (total: 18.026 ms)
+[2025.05.19-10.28.28:491][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.19-10.28.28:494][286]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.05.19-10.28.28:499][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005874s)
+[2025.05.19-10.28.28:499][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.005918s)
+[2025.05.19-10.28.28:517][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.05.19-10.28.28:518][286]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.05.19-10.28.28:520][286]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.19-10.28.28:520][286]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.19-10.28.28:520][286]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.19-10.28.28:520][286]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.19-10.28.28:521][286]LogWorldPartition: Display: WorldPartition initialize took 1.473 ms (total: 50.496 ms)
+[2025.05.19-10.28.28:521][286]LogPlayLevel: PIE: World Init took: (0.003669s)
+[2025.05.19-10.28.28:522][286]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.05.19-10.28.28:522][286]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.19-10.28.28:522][286]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.19-10.28.28:522][286]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.19-10.28.28:522][286]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.19-10.28.28:522][286]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.05.19-10.28.28:522][286]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.19-10.28.28:522][286]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.05.19-10.28.28:522][286]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.19-10.28.28:523][286]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.19-10.28.28:523][286]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.19-10.28.28:523][286]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.19-10.28.28:524][286]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.19-10.28.28:642][286]LogAudioMixer: Display: Using Audio Hardware Device Speaker (2- Realtek(R) Audio)
+[2025.05.19-10.28.28:643][286]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.19-10.28.28:643][286]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.19-10.28.28:643][286]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.19-10.28.28:644][286]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.05.19-10.28.28:644][286]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.05.19-10.28.28:646][286]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.05.19-10.28.28:646][286]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.05.19-10.28.28:646][286]LogInit: FAudioDevice initialized with ID 8.
+[2025.05.19-10.28.28:646][286]LogAudio: Display: Audio Device (ID: 8) registered with world 'FirstPersonMap'.
+[2025.05.19-10.28.28:646][286]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.05.19-10.28.28:653][286]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.05.19-10.28.28:655][286]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2025.05.19-13.28.28
+[2025.05.19-10.28.28:656][286]LogWorld: Bringing up level for play took: 0.002282
+[2025.05.19-10.28.28:659][286]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2025.05.19-10.28.28:670][286]LogStreaming: Warning: Failed to read file '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/SaveGames/checkpoint.sav' error.
+[2025.05.19-10.28.28:671][286]PIE: Sunucu oturum açtı
+[2025.05.19-10.28.28:672][286]PIE: Editörde oyna toplam başlama süresi 0,187 saniye.
+[2025.05.19-10.28.33:727][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.19-10.28.33:727][487]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.05.19-10.28.33:727][487]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.28.33:727][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.28.33:727][487]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.05.19-10.28.33:733][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.19-10.28.33:741][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.28.33:762][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.19-10.28.33:762][487]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.05.19-10.28.33:762][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.05.19-10.28.33:764][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.05.19-10.28.33:770][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.05.19-10.28.33:819][488]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2025.05.19-10.28.51:432][435]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.05.19-10.29.05:683][214]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.19-10.29.05:741][214]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/mimariplantexturefinal2] ([1] browsable assets)...
+[2025.05.19-10.29.05:750][214]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/mimariplantexturefinal2.mimariplantexturefinal2]
+[2025.05.19-10.29.05:750][214]OBJ SavePackage: Finished generating thumbnails for package [/Game/mimariplantexturefinal2]
+[2025.05.19-10.29.05:770][214]LogSavePackage: Moving output files for package: /Game/mimariplantexturefinal2
+[2025.05.19-10.29.05:770][214]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/mimariplantexturefinal2A4B2742A4BC63213B2C2CAB3803DCB94.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/mimariplantexturefinal2.uasset'
+[2025.05.19-10.29.05:781][214]LogFileHelpers: InternalPromptForCheckoutAndSave took 98.599 ms (total: 925.941 ms)
+[2025.05.19-10.29.05:846][214]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.19-10.29.05:846][214]LogContentValidation: Enabled validators:
+[2025.05.19-10.29.05:846][214]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.19-10.29.05:846][214]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.19-10.29.05:846][214]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.19-10.29.05:846][214]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.19-10.29.05:846][214]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.19-10.29.05:846][214]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.19-10.29.05:846][214]AssetCheck: /Game/mimariplantexturefinal2 Öğe doğrulama
+[2025.05.19-10.29.06:499][250]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.29.06:499][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.29.06:549][250]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.05.19-10.29.08:593][339]LogDebuggerCommands: Repeating last play command: Seçilen Görünüm Penceresi
+[2025.05.19-10.29.08:598][339]LogContentBundle: [FirstPersonMap(Bağımsız)] Generating Streaming for 0 Content Bundles.
+[2025.05.19-10.29.08:599][339]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.05.19-10.29.08:601][339]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2.248 ms (total: 20.275 ms)
+[2025.05.19-10.29.08:601][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.19-10.29.08:601][339]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.05.19-10.29.08:605][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004056s)
+[2025.05.19-10.29.08:605][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004091s)
+[2025.05.19-10.29.08:623][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.05.19-10.29.08:626][339]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.05.19-10.29.08:627][339]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.19-10.29.08:627][339]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.19-10.29.08:627][339]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.19-10.29.08:627][339]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.19-10.29.08:629][339]LogWorldPartition: Display: WorldPartition initialize took 1.520 ms (total: 52.017 ms)
+[2025.05.19-10.29.08:629][339]LogPlayLevel: PIE: World Init took: (0.003269s)
+[2025.05.19-10.29.08:630][339]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.05.19-10.29.08:630][339]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.19-10.29.08:630][339]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.19-10.29.08:630][339]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.19-10.29.08:630][339]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.19-10.29.08:630][339]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.05.19-10.29.08:630][339]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.19-10.29.08:630][339]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.05.19-10.29.08:630][339]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.19-10.29.08:630][339]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.19-10.29.08:630][339]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.19-10.29.08:630][339]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.19-10.29.08:632][339]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.19-10.29.08:734][339]LogAudioMixer: Display: Using Audio Hardware Device Speaker (2- Realtek(R) Audio)
+[2025.05.19-10.29.08:734][339]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.19-10.29.08:734][339]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.19-10.29.08:734][339]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.19-10.29.08:736][339]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.05.19-10.29.08:736][339]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.05.19-10.29.08:738][339]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.05.19-10.29.08:738][339]LogInit: FAudioDevice initialized with ID 9.
+[2025.05.19-10.29.08:738][339]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.05.19-10.29.08:738][339]LogAudio: Display: Audio Device (ID: 9) registered with world 'FirstPersonMap'.
+[2025.05.19-10.29.08:738][339]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.05.19-10.29.08:741][339]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.05.19-10.29.08:744][339]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2025.05.19-13.29.08
+[2025.05.19-10.29.08:744][339]LogWorld: Bringing up level for play took: 0.002936
+[2025.05.19-10.29.08:746][339]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2025.05.19-10.29.08:751][339]LogStreaming: Warning: Failed to read file '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/SaveGames/checkpoint.sav' error.
+[2025.05.19-10.29.08:752][339]PIE: Sunucu oturum açtı
+[2025.05.19-10.29.08:753][339]PIE: Editörde oyna toplam başlama süresi 0,155 saniye.
+[2025.05.19-10.29.16:016][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.19-10.29.16:016][638]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.05.19-10.29.16:016][638]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.29.16:017][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.29.16:017][638]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.05.19-10.29.16:022][638]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.19-10.29.16:031][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.29.16:051][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.19-10.29.16:051][638]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.05.19-10.29.16:051][638]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.05.19-10.29.16:053][638]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.05.19-10.29.16:074][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.05.19-10.29.16:123][639]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.05.19-10.29.36:675][773]LogStreaming: Display: FlushAsyncLoading(2226): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.29.36:694][773]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.05.19-10.29.39:026][773]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.29.39:066][773]LogAutomationController: Ignoring very large delta of 2.40 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.19-10.29.46:177][177]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.05.19-10.30.03:873][191]LogStreaming: Display: FlushAsyncLoading(2227): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.30.03:877][191]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.19-10.30.03:878][191]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TVPlayer_Video] ([1] browsable assets)...
+[2025.05.19-10.30.03:878][191]OBJ SavePackage: Finished generating thumbnails for package [/Game/TVPlayer_Video]
+[2025.05.19-10.30.03:878][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TVPlayer_Video" FILE="../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/TVPlayer_Video.uasset" SILENT=true
+[2025.05.19-10.30.03:879][191]LogSavePackage: Moving output files for package: /Game/TVPlayer_Video
+[2025.05.19-10.30.03:879][191]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/TVPlayer_Video9E8168C043C4A7955D6DE4A593828782.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/TVPlayer_Video.uasset'
+[2025.05.19-10.30.03:880][191]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.559 ms (total: 928.500 ms)
+[2025.05.19-10.30.03:970][191]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.05.19-10.30.03:970][191]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.19-10.30.03:970][191]LogContentValidation: Enabled validators:
+[2025.05.19-10.30.03:970][191]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.19-10.30.03:970][191]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.19-10.30.03:970][191]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.19-10.30.03:970][191]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.19-10.30.03:970][191]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.19-10.30.03:970][191]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.19-10.30.03:970][191]AssetCheck: /Game/TVPlayer_Video Öğe doğrulama
+[2025.05.19-10.30.04:875][243]LogSlate: Window 'Yeniden Adlandırmalar Başarısız' being destroyed
+[2025.05.19-10.30.08:644][440]LogStreaming: Display: FlushAsyncLoading(2228): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.30.08:662][440]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.19-10.30.08:662][440]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TVPlayer_Video_Mat] ([1] browsable assets)...
+[2025.05.19-10.30.08:662][440]OBJ SavePackage: Finished generating thumbnails for package [/Game/TVPlayer_Video_Mat]
+[2025.05.19-10.30.08:662][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TVPlayer_Video_Mat" FILE="../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/TVPlayer_Video_Mat.uasset" SILENT=true
+[2025.05.19-10.30.08:663][440]LogSavePackage: Moving output files for package: /Game/TVPlayer_Video_Mat
+[2025.05.19-10.30.08:664][440]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/TVPlayer_Video_MatE81F6DF34E5A3077C46977BCAF373778.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/TVPlayer_Video_Mat.uasset'
+[2025.05.19-10.30.08:664][440]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.292 ms (total: 931.793 ms)
+[2025.05.19-10.30.08:755][440]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.05.19-10.30.08:755][440]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.19-10.30.08:755][440]LogContentValidation: Enabled validators:
+[2025.05.19-10.30.08:755][440]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.19-10.30.08:755][440]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.19-10.30.08:755][440]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.19-10.30.08:755][440]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.19-10.30.08:755][440]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.19-10.30.08:755][440]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.19-10.30.08:755][440]AssetCheck: /Game/TVPlayer_Video_Mat Öğe doğrulama
+[2025.05.19-10.30.09:580][486]LogSlate: Window 'Yeniden Adlandırmalar Başarısız' being destroyed
+[2025.05.19-10.30.11:625][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.05.19-10.30.16:538][602]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.30.16:579][602]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/TVPlayer_Video.TVPlayer_Video
+	Asset Type: MediaTexture
+[2025.05.19-10.30.16:766][602]LogMaterial: Warning: [AssetLog] C:\Users\HP VICTUS\Documents\GitHub\TheFourMusketeer\Unreal\HallowedDecay\Content\TVPlayer_Video_Mat.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.05.19-10.30.16:768][602]LogMaterial: Warning: [AssetLog] C:\Users\HP VICTUS\Documents\GitHub\TheFourMusketeer\Unreal\HallowedDecay\Content\TVPlayer_Video_Mat.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.05.19-10.30.16:770][602]LogMaterial: Warning: [AssetLog] C:\Users\HP VICTUS\Documents\GitHub\TheFourMusketeer\Unreal\HallowedDecay\Content\TVPlayer_Video_Mat.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.05.19-10.30.16:819][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.05.19-10.30.16:837][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.05.19-10.30.16:856][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.05.19-10.30.16:869][602]LogAutomationController: Ignoring very large delta of 5.30 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.19-10.30.18:133][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.05.19-10.30.19:022][652]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.30.19:054][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.05.19-10.30.19:074][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.05.19-10.30.19:094][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.05.19-10.30.24:381][933]LogSlate: Window 'Yeniden Adlandırmalar Başarısız' being destroyed
+[2025.05.19-10.30.26:151][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.05.19-10.30.27:006][ 29]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.19-10.30.27:039][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.05.19-10.30.27:057][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.05.19-10.30.27:076][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.05.19-10.30.46:883][164]LogStreaming: Display: FlushAsyncLoading(2229): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.19-10.30.46:929][164]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemy/Enemy.Enemy
+[2025.05.19-10.30.46:930][164]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.05.19-10.30.47:332][164]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.05.19-10.31.19:874][552]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.05.19-10.31.19:879][552]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/O0/9O6PH5UKFH4KF1INKR7NRE_Auto4
+[2025.05.19-10.31.19:879][552]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/9O6PH5UKFH4KF1INKR7NRE_Auto465D6073D4FF8576442D101AAA42EB5EF.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/O0/9O6PH5UKFH4KF1INKR7NRE_Auto4.uasset'
+[2025.05.19-10.31.19:883][552]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Z7/W1SXRCM1KAKBJOIZDLHZ47_Auto4
+[2025.05.19-10.31.19:883][552]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/W1SXRCM1KAKBJOIZDLHZ47_Auto4343A7ABC4D44EA0C131D77A96A137AB3.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Z7/W1SXRCM1KAKBJOIZDLHZ47_Auto4.uasset'
+[2025.05.19-10.31.19:884][552]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.059
+[2025.05.19-10.31.19:884][552]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.059
+[2025.05.19-10.31.19:885][552]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/wood2] ([1] browsable assets)...
+[2025.05.19-10.31.19:898][552]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/wood2.wood2]
+[2025.05.19-10.31.19:898][552]OBJ SavePackage: Finished generating thumbnails for package [/Game/wood2]
+[2025.05.19-10.31.19:912][552]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/wood2_Auto4
+[2025.05.19-10.31.19:912][552]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/wood2_Auto4FCC474074F2E5F69FD04619673A86A38.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/Autosaves/Game/wood2_Auto4.uasset'
+[2025.05.19-10.31.19:913][552]LogFileHelpers: Auto-saving content packages took 0.029
+[2025.05.19-10.33.13:553][279]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7798.187012
+[2025.05.19-10.33.14:552][282]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.19-10.33.14:552][282]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7798.854492, Update Interval: 321.345245
+[2025.05.19-10.39.22:284][385]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8166.920898
+[2025.05.19-10.39.23:283][388]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.19-10.39.23:283][388]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8167.587891, Update Interval: 322.432922
+[2025.05.19-10.45.37:347][510]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8541.956055
+[2025.05.19-10.45.38:358][513]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.19-10.45.38:358][513]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8542.632812, Update Interval: 323.364960
+[2025.05.19-10.51.46:414][617]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8910.983398
+[2025.05.19-10.51.47:417][620]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.19-10.51.47:417][620]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8911.650391, Update Interval: 335.589478
+[2025.05.19-10.54.49:391][270]LogUObjectHash: Compacting FUObjectHashTables data took   5.72ms
+[2025.05.19-10.54.51:121][270]LogSlate: Window 'İçeriği Kaydet' being destroyed
+[2025.05.19-10.54.51:141][270]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.19-10.54.51:268][270]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/O0/9O6PH5UKFH4KF1INKR7NRE
+[2025.05.19-10.54.51:269][270]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/9O6PH5UKFH4KF1INKR7NRE7153A5C14C5F1A7D050D568D31957F2E.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/O0/9O6PH5UKFH4KF1INKR7NRE.uasset'
+[2025.05.19-10.54.51:275][270]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Z7/W1SXRCM1KAKBJOIZDLHZ47
+[2025.05.19-10.54.51:275][270]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/W1SXRCM1KAKBJOIZDLHZ471694913745BFE5913247439CDC8953A4.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Z7/W1SXRCM1KAKBJOIZDLHZ47.uasset'
+[2025.05.19-10.54.51:278][270]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/wood2] ([1] browsable assets)...
+[2025.05.19-10.54.51:278][270]OBJ SavePackage: Finished generating thumbnails for package [/Game/wood2]
+[2025.05.19-10.54.51:278][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/wood2" FILE="../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/wood2.uasset" SILENT=true
+[2025.05.19-10.54.51:297][270]LogSavePackage: Moving output files for package: /Game/wood2
+[2025.05.19-10.54.51:297][270]LogSavePackage: Moving '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Saved/wood2F8C9D74B42376B19C2BC479BC38F327D.tmp' to '../../../../../../Users/HP VICTUS/Documents/GitHub/TheFourMusketeer/Unreal/HallowedDecay/Content/wood2.uasset'
+[2025.05.19-10.54.51:322][270]LogFileHelpers: InternalPromptForCheckoutAndSave took 180.880 ms (total: 1.11 sec)
+[2025.05.19-10.54.51:359][270]LogStall: Shutdown...
+[2025.05.19-10.54.51:359][270]LogStall: Shutdown complete.
+[2025.05.19-10.54.51:577][270]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.54.51:577][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.54.52:138][270]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.54.52:138][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.54.52:471][270]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.19-10.54.52:471][270]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.54.52:471][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.54.52:565][270]LogSlate: Window 'HallowedDecay - Unreal Editor' being destroyed
+[2025.05.19-10.54.53:391][270]LogContentValidation: Display: Starting to validate 3 assets
+[2025.05.19-10.54.53:392][270]LogContentValidation: Enabled validators:
+[2025.05.19-10.54.53:392][270]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.19-10.54.53:392][270]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.19-10.54.53:392][270]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.19-10.54.53:392][270]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.19-10.54.53:392][270]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.19-10.54.53:392][270]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.19-10.54.53:392][270]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Öğe doğrulama
+[2025.05.19-10.54.53:392][270]AssetCheck: /Game/wood2 Öğe doğrulama
+[2025.05.19-10.54.53:451][270]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2025.05.19-10.54.53:470][270]LogAutomationController: Ignoring very large delta of 4.21 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.19-10.54.53:471][270]Cmd: QUIT_EDITOR
+[2025.05.19-10.54.53:471][270]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.05.19-10.54.53:477][271]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.05.19-10.54.53:477][271]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.05.19-10.54.53:478][271]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.05.19-10.54.53:481][271]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.54.53:482][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.54.53:482][271]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2025.05.19-10.54.53:492][271]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.05.19-10.54.53:498][271]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.05.19-10.54.53:522][271]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.54.53:522][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.54.53:524][271]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.54.53:524][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.54.53:526][271]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.54.53:526][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.54.53:530][271]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.54.53:530][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.54.53:534][271]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.54.53:534][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.54.53:541][271]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.54.53:541][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.54.53:542][271]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.54.53:542][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.54.53:544][271]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.54.53:544][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.54.53:546][271]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.54.53:546][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.54.53:548][271]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.54.53:548][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.54.53:551][271]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-10.54.53:552][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-10.54.53:556][271]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.05.19-10.54.53:559][271]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.05.19-10.54.53:559][271]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.05.19-10.54.53:559][271]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.05.19-10.54.54:278][271]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.05.19-10.54.54:278][271]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.05.19-10.54.54:278][271]LogAudio: Display: Audio Device unregistered from world 'FirstPersonMap'.
+[2025.05.19-10.54.54:278][271]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.05.19-10.54.54:279][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.05.19-10.54.54:301][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.05.19-10.54.54:322][271]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.05.19-10.54.54:323][271]LogAudio: Display: Audio Device Manager Shutdown
+[2025.05.19-10.54.54:325][271]LogWindowsTextInputMethodSystem: Activated input method: Türkçe (Türkiye) - (Keyboard).
+[2025.05.19-10.54.54:333][271]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.05.19-10.54.54:334][271]LogExit: Preparing to exit.
+[2025.05.19-10.54.54:392][271]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.05.19-10.54.54:397][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:397][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:404][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:407][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:407][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:407][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:407][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:407][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:407][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:407][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:407][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:407][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:408][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:408][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:408][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:408][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:408][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:408][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:408][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:409][271]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.54:409][271]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.19-10.54.55:783][271]LogEditorDataStorage: Deinitializing
+[2025.05.19-10.54.56:121][271]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.05.19-10.54.56:218][271]LogExit: Editor shut down
+[2025.05.19-10.54.56:244][271]LogExit: Transaction tracking system shut down
+[2025.05.19-10.54.57:099][271]LogCore: Error: PropertyBag: Expecting RefCount to be zero on destructor, but it is 2.
+[2025.05.19-10.54.57:153][271]LogExit: Object subsystem successfully closed.
+[2025.05.19-10.54.57:289][271]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.05.19-10.54.57:789][271]LogMemoryProfiler: Shutdown
+[2025.05.19-10.54.57:789][271]LogNetworkingProfiler: Shutdown
+[2025.05.19-10.54.57:789][271]LoadingProfiler: Shutdown
+[2025.05.19-10.54.57:789][271]LogTimingProfiler: Shutdown
+[2025.05.19-10.54.59:070][271]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.05.19-10.54.59:070][271]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.05.19-10.54.59:070][271]LogNFORDenoise: NFORDenoise function shutting down
+[2025.05.19-10.54.59:121][271]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.05.19-10.54.59:121][271]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3825B08D-49E6-9B79-E13B-75ADE7A73588%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.3-39772772%2B%2B%2BUE5%2BRelease-5.5&UserID=ea2557174064d85622373482eec661ba%7Cfdd018fc54d14f83aa43eba7108b6dbe%7Cc659ecd6-06cb-4f6f-9354-a1569d407207&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.05.19-10.55.00:226][271]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.05.19-10.55.00:252][271]RenderDocPlugin: plugin has been unloaded.
+[2025.05.19-10.55.00:281][271]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.05.19-10.55.00:281][271]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.05.19-10.55.00:281][271]LogPakFile: Destroying PakPlatformFile
+[2025.05.19-10.55.04:866][271]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.05.19-10.55.05:261][271]LogExit: Exiting.
+[2025.05.19-10.55.05:370][271]Log file closed, 05/19/25 13:55:05
