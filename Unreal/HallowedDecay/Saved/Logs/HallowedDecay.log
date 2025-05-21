@@ -2196,3 +2196,140 @@ Script Stack (0 frames) :
 [2025.05.21-11.23.17:454][590]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.05.21-11.23.17:454][590]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.05.21-11.23.17:454][590]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.05.21-11.23.48:715][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.05.21-11.23.49:577][981]LogSlate: Window 'Save Content' being destroyed
+[2025.05.21-11.23.49:588][981]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-11.23.49:620][981]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Door/BP_Door] ([2] browsable assets)...
+[2025.05.21-11.23.49:642][981]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Door/BP_Door.BP_Door]
+[2025.05.21-11.23.49:642][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/Door/BP_Door]
+[2025.05.21-11.23.49:642][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/BP_Door" FILE="../../../../../../Users/yıldız/Documents/GitHub/TheFourthMusketeer/Unreal/HallowedDecay/Content/Door/BP_Door.uasset" SILENT=true
+[2025.05.21-11.23.49:659][981]LogSavePackage: Moving output files for package: /Game/Door/BP_Door
+[2025.05.21-11.23.49:660][981]LogSavePackage: Moving '../../../../../../Users/yıldız/Documents/GitHub/TheFourthMusketeer/Unreal/HallowedDecay/Saved/BP_Door201E8D38444E3844B8A5AC9896D8FA34.tmp' to '../../../../../../Users/yıldız/Documents/GitHub/TheFourthMusketeer/Unreal/HallowedDecay/Content/Door/BP_Door.uasset'
+[2025.05.21-11.23.49:661][981]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter2] ([2] browsable assets)...
+[2025.05.21-11.23.49:669][981]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter2.BP_FirstPersonCharacter2]
+[2025.05.21-11.23.49:669][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter2]
+[2025.05.21-11.23.49:720][981]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter2
+[2025.05.21-11.23.49:721][981]LogSavePackage: Moving '../../../../../../Users/yıldız/Documents/GitHub/TheFourthMusketeer/Unreal/HallowedDecay/Saved/BP_FirstPersonCharacter2A83033F744DB8D9A5127CC9ED1BA1E45.tmp' to '../../../../../../Users/yıldız/Documents/GitHub/TheFourthMusketeer/Unreal/HallowedDecay/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter2.uasset'
+[2025.05.21-11.23.49:722][981]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/Enemy] ([2] browsable assets)...
+[2025.05.21-11.23.49:722][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Enemy]
+[2025.05.21-11.23.49:722][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Enemy" FILE="../../../../../../Users/yıldız/Documents/GitHub/TheFourthMusketeer/Unreal/HallowedDecay/Content/Enemy/Enemy.uasset" SILENT=true
+[2025.05.21-11.23.49:742][981]LogSavePackage: Moving output files for package: /Game/Enemy/Enemy
+[2025.05.21-11.23.49:742][981]LogSavePackage: Moving '../../../../../../Users/yıldız/Documents/GitHub/TheFourthMusketeer/Unreal/HallowedDecay/Saved/Enemy202ED35F4C5E595A8A635BB87B86A343.tmp' to '../../../../../../Users/yıldız/Documents/GitHub/TheFourthMusketeer/Unreal/HallowedDecay/Content/Enemy/Enemy.uasset'
+[2025.05.21-11.23.49:752][981]LogFileHelpers: InternalPromptForCheckoutAndSave took 165.119 ms (total: 659.714 ms)
+[2025.05.21-11.23.49:793][981]LogStall: Shutdown...
+[2025.05.21-11.23.49:794][981]LogStall: Shutdown complete.
+[2025.05.21-11.23.49:825][981]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.21-11.23.49:825][981]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.23.49:825][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.23.49:871][981]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.21-11.23.49:872][981]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.23.49:872][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.23.49:918][981]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.21-11.23.49:918][981]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.23.49:918][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.23.49:975][981]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.21-11.23.49:975][981]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.23.49:975][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.23.50:016][981]LogSlate: Window 'HallowedDecay - Unreal Editor' being destroyed
+[2025.05.21-11.23.50:018][981]LogWindowsTextInputMethodSystem: Activated input method: Türkçe (Türkiye) - (Keyboard).
+[2025.05.21-11.23.50:086][981]LogContentValidation: Display: Starting to validate 3 assets
+[2025.05.21-11.23.50:086][981]LogContentValidation: Enabled validators:
+[2025.05.21-11.23.50:086][981]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.21-11.23.50:086][981]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.21-11.23.50:086][981]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.21-11.23.50:086][981]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.21-11.23.50:086][981]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.21-11.23.50:086][981]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.21-11.23.50:086][981]AssetCheck: /Game/Door/BP_Door Validating asset
+[2025.05.21-11.23.50:086][981]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter2 Validating asset
+[2025.05.21-11.23.50:086][981]AssetCheck: /Game/Enemy/Enemy Validating asset
+[2025.05.21-11.23.50:109][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.05.21-11.23.50:127][981]Cmd: QUIT_EDITOR
+[2025.05.21-11.23.50:127][981]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.05.21-11.23.50:134][982]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.05.21-11.23.50:135][982]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.05.21-11.23.50:135][982]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.05.21-11.23.50:138][982]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.23.50:138][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.23.50:138][982]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2025.05.21-11.23.50:148][982]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.05.21-11.23.50:148][982]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.05.21-11.23.50:150][982]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.23.50:150][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.23.50:153][982]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.23.50:153][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.23.50:156][982]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.23.50:156][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.23.50:159][982]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.23.50:159][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.23.50:163][982]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.23.50:163][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.23.50:166][982]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.23.50:166][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.23.50:169][982]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.23.50:169][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.23.50:172][982]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.23.50:172][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.23.50:176][982]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-11.23.50:176][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-11.23.50:179][982]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.05.21-11.23.50:186][982]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.05.21-11.23.50:186][982]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.05.21-11.23.50:186][982]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.05.21-11.23.51:016][982]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.05.21-11.23.51:016][982]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.05.21-11.23.51:016][982]LogAudio: Display: Audio Device unregistered from world 'FirstPersonMap'.
+[2025.05.21-11.23.51:016][982]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.05.21-11.23.51:016][982]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.05.21-11.23.51:017][982]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.05.21-11.23.51:023][982]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.05.21-11.23.51:023][982]LogAudio: Display: Audio Device Manager Shutdown
+[2025.05.21-11.23.51:027][982]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.05.21-11.23.51:027][982]LogExit: Preparing to exit.
+[2025.05.21-11.23.51:052][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:055][982]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.21-11.23.51:590][982]LogEditorDataStorage: Deinitializing
+[2025.05.21-11.23.51:826][982]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.05.21-11.23.51:848][982]LogExit: Editor shut down
+[2025.05.21-11.23.51:852][982]LogExit: Transaction tracking system shut down
+[2025.05.21-11.23.52:073][982]LogCore: Error: PropertyBag: Expecting RefCount to be zero on destructor, but it is 4.
+[2025.05.21-11.23.52:103][982]LogExit: Object subsystem successfully closed.
+[2025.05.21-11.23.52:148][982]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.05.21-11.23.52:536][982]LogMemoryProfiler: Shutdown
+[2025.05.21-11.23.52:536][982]LogNetworkingProfiler: Shutdown
+[2025.05.21-11.23.52:536][982]LoadingProfiler: Shutdown
+[2025.05.21-11.23.52:536][982]LogTimingProfiler: Shutdown
+[2025.05.21-11.23.52:982][982]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.05.21-11.23.53:010][982]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.05.21-11.23.53:010][982]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2F134BAE-40BD-CADD-A032-8088304D5429%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=fdaead1140a4efd918d5239306b560da%7C7ed64bef52e0495b8a442edf83bd527f%7C2e8dbc26-b98c-4d02-90c4-568891c7e11c&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.05.21-11.23.54:385][982]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.05.21-11.23.54:385][982]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.05.21-11.23.54:385][982]LogNFORDenoise: NFORDenoise function shutting down
+[2025.05.21-11.23.54:394][982]RenderDocPlugin: plugin has been unloaded.
+[2025.05.21-11.23.54:396][982]LogXGEController: Cleaning working directory: C:/Users/yıldız/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.05.21-11.23.54:400][982]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.05.21-11.23.54:400][982]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.05.21-11.23.54:400][982]LogPakFile: Destroying PakPlatformFile
+[2025.05.21-11.23.54:674][982]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.05.21-11.23.54:787][982]LogExit: Exiting.
+[2025.05.21-11.23.54:858][982]Log file closed, 05/21/25 14:23:54
